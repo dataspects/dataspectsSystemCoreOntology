@@ -1,0 +1,7 @@
+|-
+|[[{{{1}}}]]
+|
+|[{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:FormEdit/{{{1}}} Add new]
+|
+[{{SERVER}}{{SCRIPTPATH}}/index.php?title=Template:{{{1}}} Template] [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{{1}}} Form]
+|-<noinclude>[[Category:DSKIMMPETopLevelOntology]]</noinclude>
