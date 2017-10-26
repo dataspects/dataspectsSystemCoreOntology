@@ -1,0 +1,80 @@
+-- Global variables?
+
+local p = {}
+
+function trim1(s)
+  return (s:gsub("^%s*(.-)%s*$", "%1"))
+end
+
+function split(s, delimiter)
+  result = {};
+  for match in (s..delimiter):gmatch("(.-)"..delimiter) do
+    table.insert(result, match);
+  end
+  return result;
+end
+
+function convert(motivation)
+  if motivation['hasDirection'] == 'Is motivating' then
+    predicate = 'is motivated by'
+  else
+    predicate = 'is motivating'
+  end
+  motivationsOnOtherPages[predicate..motivation['page']] = "* "..predicate.." [["..motivation['page'].."]] ''"..motivation['hasReasoning'].."''"
+end
+
+function p.main(frame)
+
+  pages = split(frame.args[1], ',')
+  pagename = frame.args[2]
+
+  motivations = {}
+  for key, resultItem in pairs(pages) do
+    properties = split(resultItem, '<PROP>')
+    motivation = {
+      page = trim1(split(properties[1],'#')[1]),
+      hasDirection = properties[2],
+      isMotivating = properties[3],
+      isMotivatedBy = properties[4],
+      hasReasoning = properties[5]
+    }
+    table.insert(motivations, motivation)
+  end
+
+  motivationsOnPage = {}
+  motivationsOnOtherPages = {}
+  for key, motivation in pairs(motivations) do
+    if pagename == motivation['page'] then
+      if motivation['hasDirection'] == 'Is motivating' then
+        predicate = 'is motivating'
+        object = motivation['isMotivating']
+      elseif motivation['hasDirection'] == 'Is motivated by' then
+        predicate = 'is motivated by'
+        object = motivation['isMotivatedBy']
+      end
+      motivationsOnPage[predicate..object] = "* "..predicate.." [["..object.."]] ''"..motivation['hasReasoning'].."''"
+    else
+      convert(motivation)
+    end
+  end
+
+  mop = {}
+  for key, motivation in pairs(motivationsOnPage) do
+    table.insert(mop, motivation)
+  end
+
+  moOp = {}
+  for key, motivation in pairs(motivationsOnOtherPages) do
+    if motivationsOnPage[key] then
+      table.insert(moOp, motivation..' <span style="background-color:orange; padding:2px;border-radius:2px;">Double Declaration!</span>')
+    else
+      table.insert(moOp, motivation)
+    end
+  end
+
+  wikitext = '<div style="font-family:monospace;">Declared on this page</div>\n'..table.concat(mop, '\n')..'\n<div style="font-family:monospace;">Declared on other pages</div>\n'..table.concat(moOp, '\n')
+
+  return wikitext
+end
+return p
+--[[Category:DSKIMMPETopLevelOntology]]
