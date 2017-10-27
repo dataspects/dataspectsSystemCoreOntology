@@ -1,0 +1,23 @@
+== Ontology components table for content reference {{{ContentReferenceCategory}}} == 
+
+{|class=wikitable width=100%
+|width=50%|'''Templates'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="Template"}}
+|'''Properties'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="Property"}}
+|-
+|'''Concepts'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="Concept"}}
+|'''Forms'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="Form"}}
+|-
+|'''Categories'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=categories|namespaces="Category"}}
+|'''Main'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="Main"}}
+|-
+|'''Modules'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="Module"}}
+|'''MediaWiki'''
+{{#categorytree:{{{ContentReferenceCategory}}}|hideroot=on|mode=pages|namespaces="MediaWiki"}}
+|}S<noinclude>[[Category:DSKMFOntologyModuleL0BB0]]</noinclude>
