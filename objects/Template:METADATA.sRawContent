@@ -39,7 +39,7 @@ __TOC__
 {{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{PAGENAME}}}}</div>}}
 |}
 = In this context&hellip; =
-{{#ask:[[HasType::+]][[HasContext::{{PAGENAME}}]]
+{{#ask:[[HasSubjectType::+]][[HasContext::{{PAGENAME}}]]
 |format=ul
 }}
 
