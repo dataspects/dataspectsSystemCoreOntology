@@ -1,5 +1,4 @@
 {{#ask:[[Subcategory of::OntologyCategory]]
-|?=ContentReferenceCategory
 |format=template
 |template=OntologyComponentsTable
 |named args=yes
