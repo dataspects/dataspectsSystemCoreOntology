@@ -1,0 +1,26 @@
+{{{info|add title=Initialize|edit title=Edit}}}
+
+{{{for template|PropertyPage}}}
+  {|class=formtable
+    !Type
+    |{{{field|PropertyType|input type=dropdown|values=Text,URL,Page,Date,Boolean|default=Text}}}
+    |-
+    !Keywords
+    |{{{field|HasKeywords|input type=tokens|delimiter=;|values from property=HasKeyword}}}
+  |}
+{{{end template}}}
+
+{{{for template|PropertyConstitutes|label=Constitutions|multiple|add button text=Add (another)}}}
+  {|class=formtable
+    !Constitutes Facet
+    |{{{field|PropertyConstitutesThisFacet|input type=dropdown|values from category=Subject|mapping property=HasTypeAndTitle}}}
+    |-
+    !Having Values
+    |{{{field|HavingThesePropertyValues|input type=tokens}}}
+  |}
+{{{end template}}}
+
+{{ForTemplateIrregularProperty}}
+
+{{FormFooter}}
+[[Category:DSKMFCoreOntology]]
