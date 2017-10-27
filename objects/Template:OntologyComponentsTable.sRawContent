@@ -19,4 +19,5 @@
 |'''Modules'''
 |'''MediaWiki'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="MediaWiki"}}
-|}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|}
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
