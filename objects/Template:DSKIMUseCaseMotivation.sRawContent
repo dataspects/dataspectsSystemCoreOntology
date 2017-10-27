@@ -1,0 +1,7 @@
+{{#subobject:
+|IsSubobjectType=DSKIMUseCaseMotivation
+|HasDirection={{{HasDirection}}}
+|IsMotivatedBy={{{IsMotivatedBy|}}}
+|IsMotivating={{{IsMotivating|}}}
+|HasReasoning={{{HasReasoning|}}}
+}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
