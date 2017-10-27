@@ -1,0 +1,1 @@
+<noinclude>Used by [[Template:ForTemplateIrregularProperty]].</noinclude><includeonly>{{#set:{{{PropertyName}}}={{{PropertyValue}}}}}{{#subobject:|PropertyType=Irregular|PropertyName={{{PropertyName}}}|PropertyValue={{{PropertyValue}}}}}</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
