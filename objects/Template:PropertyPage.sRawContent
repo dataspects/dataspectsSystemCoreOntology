@@ -26,7 +26,7 @@
 {{#ask:[[{{PAGENAME}}::+]]
 |?{{PAGENAME}}
 |format=template
-|template=Statements Table Row
+|template=StatementsTableRow
 |link=none
 }}
 |}
