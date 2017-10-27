@@ -7,7 +7,7 @@
 {|class="display dskim_datatables"
 !Page
 ![[Component0907067149|Properties]]
-{{#ask:[[HasType::{{PAGENAME}}]]
+{{#ask:[[HasSubjectType::{{PAGENAME}}]]
 |?HasKeyword
 |format=list
 |template=SubjectsResultRow2
