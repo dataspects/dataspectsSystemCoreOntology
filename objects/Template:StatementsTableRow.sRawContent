@@ -1,0 +1,5 @@
+<includeonly>|-
+|[[{{{1}}}]]
+|{{PropName|{{PAGENAME}}}}
+|{{PropVal|{{#ifeq:{{#show:Property:{{PAGENAME}}|?Has type|link=none}}|Page|[[{{{2}}}]]|{{{2}}}}}}}
+|-</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
