@@ -1,0 +1,35 @@
+<includeonly>Property type is '''[[Has type::{{{PropertyType|Text}}}]]'''.
+
+<div style="font-family:monospace;">Keywords</div>
+{{#arraymap:{{{HasKeywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
+
+== All facets for which this property "{{PAGENAME}}" plays a constitutional role ==
+
+{|class="sortable wikitable smwtable jquery-tablesorter" width=100%
+!Facet...
+!...is constituted by...
+!...having values
+{{#ask:[[-Has subobject::{{FULLPAGENAME}}]]
+|?PropertyConstitutesThisFacet
+|?HavingThesePropertyValues
+|format=template
+|template=PropertyConstellationsTableRow 2
+}}
+|}
+
+== All statements for this property "{{PAGENAME}}" ==
+
+{|class="sortable wikitable smwtable jquery-tablesorter" width=100%
+!Subject
+!Predicate
+!Object
+{{#ask:[[{{PAGENAME}}::+]]
+|?{{PAGENAME}}
+|format=template
+|template=Statements Table Row
+|link=none
+}}
+|}
+[[Category:Property]]</includeonly>
+{{#default_form:Property}}
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
