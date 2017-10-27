@@ -1,0 +1,52 @@
+{|class=wikitextpostertable width=100%
+|width=40%|
+__TOC__
+|width=60%|
+= Metadata =
+{|class=wikitextpostertable width=100% cellpadding=20
+|
+<div style="font-family:monospace;">Keywords/Contexts</div>
+{{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
+{{#ask:[[-Has subobject::{{PAGENAME}}]][[HasContext::+]]
+|mainlabel=-
+|?HasContext=
+|format=ul
+}}
+|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|Irregular Properties]]</div>
+{{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Irregular]]
+|mainlabel=-
+|?PropertyName
+|?PropertyValue
+|sort=PropertyName
+|format=template
+|template=PropertyResultRow
+}}
+|-
+|<div style="font-family:monospace;">[[Component1334660426|Regular Properties]]</div>
+{{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Regular]]
+|mainlabel=-
+|?PropertyName
+|?PropertyValue
+|sort=PropertyName
+|format=template
+|template=PropertyResultRow
+}}
+|-
+|colspan=3|{{#compound_query:[[-Has subobject::{{PAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|[[-Has subobject::+]][[IsMotivatedBy::{{PAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|[[-Has subobject::+]][[IsMotivating::{{PAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|format=array|name=MotivationsDeclaredOnThisPageResultItem|link=none}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
+{{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{PAGENAME}}}}</div>}}
+|}
+= In this context&hellip; =
+{{#ask:[[HasType::+]][[HasContext::{{PAGENAME}}]]
+|format=ul
+}}
+
+= What links here? =
+{{Special:WhatLinksHere/{{PAGENAME}}}}
+<headertabs/>
+|}
+= Content =
+{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
