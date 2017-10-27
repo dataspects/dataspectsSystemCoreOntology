@@ -1,0 +1,1 @@
+<includeonly>{{#set:HasContext={{{HasContext|}}}}}{{#subobject:|HasContext={{{HasContext}}}|HasComment={{{HasComment|}}}}}</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude><!-- set HasContext = HasContext is in order to enable queries like HasType::DSKIMIssue AND HasContext::PAGENAME -->
