@@ -1,0 +1,20 @@
+<includeonly>
+{{#formlink:form={{PAGENAME}}|link text=Add new|link type=button}}
+* [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Template:{{PAGENAME}} Template]
+* [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{PAGENAME}} Form]
+== HasType::{{PAGENAME}} ==
+
+{|class="display dskim_datatables"
+!Page
+![[Component0907067149|Properties]]
+{{#ask:[[HasType::{{PAGENAME}}]]
+|?HasKeyword
+|format=list
+|template=SubjectsResultRow2
+|link=none
+|sep=;
+}}
+|}
+[[Category:DSKMFSubjectType]]
+</includeonly>
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
