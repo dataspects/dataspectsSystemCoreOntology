@@ -1,0 +1,4 @@
+<nowiki>{{{</nowiki>for template<nowiki>|</nowiki>IrregularProperty<nowiki>|</nowiki>label=Properties<nowiki>|</nowiki>multiple<nowiki>|</nowiki>add button text=Add (another)<nowiki>}}}</nowiki>
+<nowiki>{{{</nowiki>field<nowiki>|</nowiki>PropertyName<nowiki>|</nowiki>input type=combobox<nowiki>|</nowiki>values from property=PropertyName<nowiki>}}}</nowiki> <nowiki>{{{</nowiki>field<nowiki>|</nowiki>PropertyValue<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
+<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
