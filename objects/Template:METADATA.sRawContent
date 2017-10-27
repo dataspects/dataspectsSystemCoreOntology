@@ -32,7 +32,7 @@ __TOC__
 |template=PropertyResultRow
 }}
 |-
-|colspan=3|{{#compound_query:[[-Has subobject::{{PAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|colspan=3|{{[[-Has subobject::{{PAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
 |[[-Has subobject::+]][[IsMotivatedBy::{{PAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
 |[[-Has subobject::+]][[IsMotivating::{{PAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
 |format=array|name=MotivationsDeclaredOnThisPageResultItem|link=none}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
