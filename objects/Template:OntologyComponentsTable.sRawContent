@@ -2,7 +2,7 @@
 
 {|class=wikitable width=100%
 |width=50%|'''Templates'''
-{{#categorytree:DSKMFCoreOntology|hideroot=on|mode=pages|namespaces="Template"}}
+{{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="Template"}}
 |'''Properties'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="Property"}}
 |-
