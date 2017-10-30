@@ -3,7 +3,7 @@
 !{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
 !Links
 !Building Blocks
-{{#ask:{{{TypesFacetSelectionStatement|[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thementyp|Category:Topic Type}}]]}}}
+{{#ask:{{{TypesFacetSelectionStatement|[[Category:Topic Type]]}}}
 |?HasKeyword
 |format=template
 |template=TypesResultRow
