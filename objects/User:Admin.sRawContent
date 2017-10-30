@@ -1,3 +1,12 @@
+= Main =
+
 * [[MediaWiki:Common.cs]]
 * [[MediaWiki:Sidebar]]
+
+= Ontology =
+
+{{OntologyComponentsTable|ContentReferenceCategory=DSKMFCoreOntology}}
+{{OntologyComponentsTable|ContentReferenceCategory=IBGOntology}}
+
+</headertabs>
 [[:Category:OntologyCategory]]
