@@ -1,6 +1,5 @@
 |-
-|[[{{{1}}}]]
-* {{#ask:[[HasSubjectType::{{{1}}}]]|format=count}}
+|'''[[{{{1}}}]]''' ({{#ask:[[HasSubjectType::{{{1}}}]]|format=count}})
 |
 |
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:FormEdit/{{#replace:{{{1}}}| |_}} {{#switch:{{CONTENTLANG}}|de=Hinzufügen|Add new}}]
