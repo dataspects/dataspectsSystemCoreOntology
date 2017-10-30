@@ -1,5 +1,5 @@
 <nowiki>{{{</nowiki>for template<nowiki>|</nowiki>Context<nowiki>|</nowiki>label=Contexts<nowiki>|</nowiki>multiple<nowiki>|</nowiki>add button text=Add (another)<nowiki>}}}</nowiki>
-<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasContext<nowiki>|</nowiki>input type=combobox<nowiki>|</nowiki>values from category=Subject<nowiki>|</nowiki>size=75<nowiki>}}}</nowiki>
+<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasContext<nowiki>|</nowiki>input type=combobox<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Thema|Topic}}<nowiki>|</nowiki>size=75<nowiki>}}}</nowiki>
 
 <nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasComment<nowiki>|</nowiki>input type=textarea<nowiki>}}}</nowiki>
 <nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
