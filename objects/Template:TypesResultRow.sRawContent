@@ -1,7 +1,10 @@
 |-
 |[[{{{1}}}]]
+* {{#ask:HasSubjectType::{{{1}}}|format=count}}
 |
-|[{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:FormEdit/{{{1}}} Add new]
 |
-[{{SERVER}}{{SCRIPTPATH}}/index.php?title=Template:{{{1}}} Template] [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{{1}}} Form]
+* [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:FormEdit/{{{1}}} {{#switch:{{CONTENTLANG}}|de=Hinzufügen|Add new}}]
+|
+* [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Template:{{{1}}} Template]
+* [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{{1}}} Form]
 |-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
