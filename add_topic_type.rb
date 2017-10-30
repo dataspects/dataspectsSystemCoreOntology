@@ -13,7 +13,7 @@ files[name] = "{{ComponentType2
 
 files["Template:#{domain} #{name}"] = "<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}}}
 
-{{RegularProperty|PropertyName=HasSubjectType|PropertyValue=IBG #{name}}}
+{{RegularProperty|PropertyName=HasSubjectType|PropertyValue=#{name}}}
 
 {{DISPLAYTITLE:#{name} \"{{{HasTitle}}}\"}}
 {{#default_form:IBG#{name}}}</includeonly>
