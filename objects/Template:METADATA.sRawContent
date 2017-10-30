@@ -5,14 +5,14 @@ __TOC__
 = Metadata =
 {|class=wikitextpostertable width=100% cellpadding=20
 |
-<div style="font-family:monospace;">Keywords/Contexts</div>
+<div style="font-family:monospace;">{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}/{{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}}</div>
 {{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
 {{#ask:[[-Has subobject::{{PAGENAME}}]][[HasContext::+]]
 |mainlabel=-
 |?HasContext=
 |format=ul
 }}
-|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|Irregular Properties]]</div>
+|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|{{#switch:{{CONTENTLANG}}|de=Spezielle Eigenschaften|Special properties}}]]</div>
 {{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Irregular]]
 |mainlabel=-
 |?PropertyName
@@ -22,7 +22,7 @@ __TOC__
 |template=PropertyResultRow
 }}
 |-
-|<div style="font-family:monospace;">[[Component1334660426|Regular Properties]]</div>
+|<div style="font-family:monospace;">[[Component1334660426|{{#switch:{{CONTENTLANG}}|de=Eigenschaften als|Properties as}} {{#show:{{PAGENAME}}|?HasSubjectType|link=none}}]]</div>
 {{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Regular]]
 |mainlabel=-
 |?PropertyName
