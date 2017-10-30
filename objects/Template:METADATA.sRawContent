@@ -32,10 +32,7 @@ __TOC__
 |template=PropertyResultRow
 }}
 |-
-|colspan=3|{{[[-Has subobject::{{PAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
-|[[-Has subobject::+]][[IsMotivatedBy::{{PAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
-|[[-Has subobject::+]][[IsMotivating::{{PAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
-|format=array|name=MotivationsDeclaredOnThisPageResultItem|link=none}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
+|colspan=3|{{#ask:[[-Has subobject::{{PAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]]|?HasDirection|?IsMotivating|?IsMotivatedBy|?HasReasoning|format=array|name=One|link=none}}{{#ask:[[-Has subobject::+]][[IsMotivatedBy::{{PAGENAME}}]]|?HasDirection|?IsMotivating|?IsMotivatedBy|?HasReasoning|format=array|name=Two|link=none}}{{#ask:[[-Has subobject::+]][[IsMotivating::{{PAGENAME}}]]|?HasDirection|?IsMotivating|?IsMotivatedBy|?HasReasoning|format=array|name=Three|link=none}}{{#arraymerge:MotivationsDeclaredOnThisPageResultItem|One|Two|Three}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
 {{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{PAGENAME}}}}</div>}}
 |}
 = In this context&hellip; =
