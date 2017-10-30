@@ -1,0 +1,12 @@
+{|class="wikitable"
+!{{#switch:{{CONTENTLANG}}|de=Thementyp|Topic Type}}
+!{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
+!Links
+!Building Blocks
+{{#ask:{{{TypesFacetSelectionStatement|[[Category:DSKIMSubjectType]]}}}
+|?HasKeyword
+|format=template
+|template=TypesResultRow
+|link=none
+}}
+|}
