@@ -46,4 +46,5 @@ __TOC__
 |}
 = Content =
 {{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+<includeonly>[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
