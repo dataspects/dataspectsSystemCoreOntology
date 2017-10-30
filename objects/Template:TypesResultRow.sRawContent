@@ -1,6 +1,6 @@
 |-
 |[[{{{1}}}]]
-* {{#ask:HasSubjectType::{{{1}}}|format=count}}
+* {{#ask:[[HasSubjectType::{{{1}}}]]|format=count}}
 |
 |
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:FormEdit/{{{1}}} {{#switch:{{CONTENTLANG}}|de=Hinzufügen|Add new}}]
