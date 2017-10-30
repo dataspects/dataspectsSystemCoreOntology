@@ -2,11 +2,8 @@
 ** mainpage|mainpage-description
 ** recentchanges-url|recentchanges
 ** helppage|help
-* Structure
-** Types|Types
-* Ontology
-** Category:OntologyCategory|Overview
-** Special:Version|Version
+* {{SITENAME}}
+** {{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}|{{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}
 * SEARCH
 * TOOLBOX
 * LANGUAGES
