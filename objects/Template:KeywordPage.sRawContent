@@ -10,5 +10,6 @@
 }}
 |}
 __NOTOC__
-[[Category:Keyword]]{{#default_form:Keyword}}
+{{DISPLAYTITLE:{{#switch:{{CONTENTLANG}}|de=Stichwort|Keyword}} "{{PAGENAME}}"}}
+[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]{{#default_form:Keyword}}
 </includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
