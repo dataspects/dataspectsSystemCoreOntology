@@ -1,0 +1,11 @@
+[{{SERVER}}{{SCRIPTPATH}}/index.php?title=Special:OntologyGraphs&sfp={{PAGENAMEE}} Show facet graph]
+
+{|class="sortable wikitable smwtable jquery-tablesorter" width=100%
+!{{#getdisplaytitle:{{PAGENAME}}}} is constituted by properties...
+!...having values
+{{#ask:[[PropertyConstitutesThisFacet::{{PAGENAME}}]]
+|?HavingThesePropertyValues
+|format=template
+|template=PropertyConstellationsTableRow
+}}
+|}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
