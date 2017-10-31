@@ -11,7 +11,7 @@ files[name] = "{{ComponentType2
 |HasKeyword=
 }}[[Category:#{domain}Ontology]]"
 
-files["Template:#{domain} #{name}"] = "<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}}}
+files["Template:#{name}"] = "<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}}}
 
 {{RegularProperty|PropertyName=HasSubjectType|PropertyValue=#{name}}}
 
@@ -41,7 +41,7 @@ files["Form:#{name}"] = "{{{info|add title=Add #{name}|edit title=Edit #{name}|p
 [[Category:#{domain}Ontology]]"
 
 files.each do |name, content|
-  open("#{repository}/objects/#{domain} #{name}.#{extension}", 'w') do |f|
+  open("#{repository}/objects/#{name}.#{extension}", 'w') do |f|
     f.puts content
   end
 end
