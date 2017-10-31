@@ -1,4 +1,4 @@
-{|class="display dskim_datatables" id="articles"
+<includeonly>{|class="display dskim_datatables" id="articles"
 !{{#switch:{{CONTENTLANG}}|de=Thema|Topic}}
 !{{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}}
 {{#ask:[[HasKeyword::{{PAGENAME}}]]
