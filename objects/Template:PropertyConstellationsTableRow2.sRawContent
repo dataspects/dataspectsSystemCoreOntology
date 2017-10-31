@@ -1,0 +1,5 @@
+|-
+|{{{2}}}
+|{{{1}}}
+|{{#if:{{{3}}}|{{{3}}}|''Any value(s)''}}
+|-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
