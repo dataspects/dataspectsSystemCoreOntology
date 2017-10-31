@@ -1,4 +1,4 @@
-<includeonly>{|class="display dskim_datatables" id="articles"
+<includeonly>{|class="wikitable" width="100%" id="articles"
 !{{#switch:{{CONTENTLANG}}|de=Thema|Topic}}
 !{{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}}
 {{#ask:[[HasKeyword::{{PAGENAME}}]]
@@ -10,6 +10,5 @@
 }}
 |}
 __NOTOC__
-{{#set:HasTypeAndTitle={{#switch:{{CONTENTLANG}}|de=Stichwort|Keyword}} "{{PAGENAME}}"}}
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]{{#default_form:Keyword}}
 </includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
