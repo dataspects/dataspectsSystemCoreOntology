@@ -1,0 +1,14 @@
+{|class="display dskim_datatables" id="articles"
+!{{#switch:{{CONTENTLANG}}|de=Thema|Topic}}
+!{{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}}
+{{#ask:[[HasKeyword::{{PAGENAME}}]]
+|?HasKeyword
+|format=list
+|template=SubjectsResultRow2
+|link=none
+|sep=;
+}}
+|}
+__NOTOC__
+[[Category:Keyword]]{{#default_form:Keyword}}
+</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
