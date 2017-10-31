@@ -1,0 +1,4 @@
+{{#subobject:
+|PropertyConstitutesThisFacet={{{PropertyConstitutesThisFacet}}}
+|HavingThesePropertyValues={{{HavingThesePropertyValues|}}}|+sep=;
+}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
