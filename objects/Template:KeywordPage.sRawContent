@@ -1,5 +1,5 @@
 <includeonly>{|class="wikitable" width="100%" id="articles"
-!{{#switch:{{CONTENTLANG}}|de=Thema|Topic}}
+!{{#switch:{{CONTENTLANG}}|de=Themen zum Stichwort|Topics having keyword}} {{Keyword|{{PAGENAME}}}}
 !{{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}}
 {{#ask:[[HasKeyword::{{PAGENAME}}]]
 |?HasKeyword
