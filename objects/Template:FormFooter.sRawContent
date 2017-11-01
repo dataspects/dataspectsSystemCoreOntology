@@ -4,7 +4,7 @@
     |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasTitle<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
     |-
     !{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
-    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasKeyword<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>delimiter=;<nowiki>|</nowiki>values from property=HasKeyword<nowiki>}}}</nowiki>
+    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasKeyword<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>delimiter=;<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Stichwort|Keyword}}<nowiki>}}}</nowiki>
   |}
 <nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
 = {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
