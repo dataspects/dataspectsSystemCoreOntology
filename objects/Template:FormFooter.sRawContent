@@ -1,3 +1,12 @@
+<nowiki>{{{</nowiki>for template<nowiki>|</nowiki>{{{1}}}<nowiki>}}}</nowiki>
+  {|class=formtable
+    !Title
+    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasTitle<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
+    |-
+    !Keywords
+    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasKeyword<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>delimiter=;<nowiki>|</nowiki>values from property=HasKeyword<nowiki>}}}</nowiki>
+  |}
+<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
 = {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
 <nowiki>{{{</nowiki>standard input{{!}}free text{{!}}editor=wikieditor{{!}}rows=30<nowiki>}}}</nowiki>
 = {{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}} =
