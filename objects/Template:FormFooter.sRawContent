@@ -1,9 +1,9 @@
 <nowiki>{{{</nowiki>for template<nowiki>|</nowiki>{{{1}}}<nowiki>}}}</nowiki>
   {|class=formtable
-    !Title
+    !{{#switch:{{CONTENTLANG}}|de=Titel|Title}}
     |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasTitle<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
     |-
-    !Keywords
+    !{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
     |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasKeyword<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>delimiter=;<nowiki>|</nowiki>values from property=HasKeyword<nowiki>}}}</nowiki>
   |}
 <nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
