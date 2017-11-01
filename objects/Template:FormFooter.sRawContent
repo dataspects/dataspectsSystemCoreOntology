@@ -1,4 +1,4 @@
-'''Free text:'''
+= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
 
 <nowiki>{{{</nowiki>standard input{{!}}free text{{!}}rows=30<nowiki>}}}</nowiki>
 
