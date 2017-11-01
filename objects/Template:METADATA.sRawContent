@@ -42,10 +42,11 @@ __TOC__
 
 = {{#switch:{{CONTENTLANG}}|de=Was linkt hierher|What links here}}? =
 {{Special:WhatLinksHere/{{PAGENAME}}}}
-<headertabs/>
-|}
-= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
 {{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
 <includeonly>[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
 __NOEDITSECTION__
+
+<headertabs/>
+|}
+= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
