@@ -9,6 +9,7 @@
 |sep=;
 }}
 |}
+{{DISPLAYTITLE:{{PAGENAME}}<sub style="margin-left:3px;font-size:12px;color:gray;font-style: oblique;">Stichwort</sub>}}
 __NOTOC__
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]{{#default_form:Keyword}}
 </includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
