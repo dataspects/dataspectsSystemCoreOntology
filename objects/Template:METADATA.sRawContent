@@ -1,4 +1,4 @@
-{|class=wikitextpostertable width=100%
+<includeonly>{|class=wikitextpostertable width=100%
 |width=40%|
 __TOC__
 |width=60%|
@@ -43,7 +43,7 @@ __TOC__
 = {{#switch:{{CONTENTLANG}}|de=Was linkt hierher|What links here}}? =
 {{Special:WhatLinksHere/{{PAGENAME}}}}
 {{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
-<includeonly>[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
+[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
 __NOEDITSECTION__
 
