@@ -42,6 +42,7 @@ __TOC__
 
 = {{#switch:{{CONTENTLANG}}|de=Was linkt hierher|What links here}}? =
 {{Special:WhatLinksHere/{{PAGENAME}}}}
+{{#set:HasTitle={{{HasTitle}}}}}
 {{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
