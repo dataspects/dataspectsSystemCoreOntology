@@ -12,7 +12,7 @@ __TOC__
 |?HasContext=
 |format=ul
 }}
-|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|{{#switch:{{CONTENTLANG}}|de=Spezielle Eigenschaften|Special properties}}]]</div>
+|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|{{#switch:{{CONTENTLANG}}|de=Spezielle&nbsp;Eigenschaften|Special properties}}]]</div>
 {{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Irregular]]
 |mainlabel=-
 |?PropertyName
@@ -51,3 +51,4 @@ __NOEDITSECTION__
 <headertabs/>
 |}
 = {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
+

@@ -1,25 +1,9 @@
-<nowiki>{{{</nowiki>for template<nowiki>|</nowiki>{{{1}}}<nowiki>}}}</nowiki>
-  {|class=formtable
-    !{{#switch:{{CONTENTLANG}}|de=Titel|Title}}
-    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasTitle<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
-    |-
-    !{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
-    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasKeyword<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>delimiter=;<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Stichwort|Keyword}}<nowiki>}}}</nowiki>
-  |}
-<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
-= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
-<nowiki>{{{</nowiki>standard input{{!}}free text{{!}}editor=wikieditor{{!}}rows=30<nowiki>}}}</nowiki>
-= {{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}} =
-{{ForTemplateIrregularProperty}}
-= {{#switch:{{CONTENTLANG}}|de=Motivationen|Motivations}} =
-{{ForTemplateMotivation}}
-= {{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}} =
-{{ForTemplateContext}}
-= >>> {{#switch:{{CONTENTLANG}}|de=Speichern|Save}} =
+<headertabs/>
+
 <nowiki>{{{</nowiki>standard input{{!}}summary<nowiki>}}}</nowiki>
 
 <nowiki>{{{</nowiki>standard input{{!}}minor edit<nowiki>}}}</nowiki> <nowiki>{{{</nowiki>standard input{{!}}watch<nowiki>}}}</nowiki>
 
 <nowiki>{{{</nowiki>standard input{{!}}save<nowiki>}}}</nowiki> <nowiki>{{{</nowiki>standard input{{!}}preview<nowiki>}}}</nowiki> <nowiki>{{{</nowiki>standard input{{!}}changes<nowiki>}}}</nowiki> <nowiki>{{{</nowiki>standard input{{!}}cancel<nowiki>}}}</nowiki>
-<headertabs/>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+
