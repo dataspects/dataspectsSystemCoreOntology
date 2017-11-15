@@ -1,0 +1,7 @@
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}}}
+
+{{RegularProperty|PropertyName=HasSubjectType|PropertyValue=General Topic}}
+
+{{DISPLAYTITLE:General Topic "{{{HasTitle}}}"}}
+{{#default_form:General Topic}}</includeonly>
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
