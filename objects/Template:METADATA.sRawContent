@@ -2,18 +2,18 @@
 |width=40%|
 __TOC__
 |width=60%|
-= {{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}} =
+= Metadata =
 {|class=wikitextpostertable width=100% cellpadding=20
 |
-<div style="font-family:monospace;">{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}/{{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}}</div>
+<div style="font-family:monospace;">Keywords/Contexts</div>
 {{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
-{{#ask:[[-Has subobject::{{PAGENAME}}]][[HasContext::+]]
+{{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[HasContext::+]]
 |mainlabel=-
 |?HasContext=
 |format=ul
 }}
-|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|{{#switch:{{CONTENTLANG}}|de=Spezielle Eigenschaften|Special properties}}]]</div>
-{{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Irregular]]
+|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|Irregular Properties]]</div>
+{{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[PropertyType::Irregular]]
 |mainlabel=-
 |?PropertyName
 |?PropertyValue
@@ -22,8 +22,8 @@ __TOC__
 |template=PropertyResultRow
 }}
 |-
-|<div style="font-family:monospace;">[[Component1334660426|{{#switch:{{CONTENTLANG}}|de=Eigenschaften als|Properties as}} {{#show:{{PAGENAME}}|?HasSubjectType|link=none}}]]</div>
-{{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Regular]]
+|<div style="font-family:monospace;">[[Component1334660426|Regular Properties]]</div>
+{{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[PropertyType::Regular]]
 |mainlabel=-
 |?PropertyName
 |?PropertyValue
@@ -32,21 +32,23 @@ __TOC__
 |template=PropertyResultRow
 }}
 |-
-|colspan=3|{{#ask:[[-Has subobject::{{PAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]]|?HasDirection|?IsMotivating|?IsMotivatedBy|?HasReasoning|format=array|name=One|link=none}}{{#ask:[[-Has subobject::+]][[IsMotivatedBy::{{PAGENAME}}]]|?HasDirection|?IsMotivating|?IsMotivatedBy|?HasReasoning|format=array|name=Two|link=none}}{{#ask:[[-Has subobject::+]][[IsMotivating::{{PAGENAME}}]]|?HasDirection|?IsMotivating|?IsMotivatedBy|?HasReasoning|format=array|name=Three|link=none}}{{#arraymerge:MotivationsDeclaredOnThisPageResultItem|One|Two|Three}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
-{{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{PAGENAME}}}}</div>}}
+|colspan=3|{{#compound_query:[[-Has subobject::{{FULLPAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|[[-Has subobject::+]][[IsMotivatedBy::{{FULLPAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|[[-Has subobject::+]][[IsMotivating::{{FULLPAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
+|format=array|name=MotivationsDeclaredOnThisPageResultItem|link=none}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
+{{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{FULLPAGENAME}}}}</div>}}
 |}
-= {{#switch:{{CONTENTLANG}}|de=In diesem Kontext|In this context}}&hellip; =
-{{#ask:[[HasSubjectType::+]][[HasContext::{{PAGENAME}}]]
+= In this context&hellip; =
+{{#ask:[[HasType::+]][[HasContext::{{FULLPAGENAME}}]]
 |format=ul
 }}
 
-= {{#switch:{{CONTENTLANG}}|de=Was linkt hierher|What links here}}? =
-{{Special:WhatLinksHere/{{PAGENAME}}}}
-{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
-<includeonly>[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
-__NOEDITSECTION__
-
+= What links here? =
+{{Special:WhatLinksHere/{{FULLPAGENAME}}}}
 <headertabs/>
 |}
-= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
+= Content =
+{{#set:HasTitle={{{HasTitle}}}}}
+{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLFULLPAGENAME}}}}}}
+<noinclude>[[Category:DSKMFOntologyModuleL0BB0]]</noinclude>
+
