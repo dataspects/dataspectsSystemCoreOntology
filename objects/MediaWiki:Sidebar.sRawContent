@@ -2,7 +2,7 @@
 ** mainpage|mainpage-description
 ** recentchanges-url|recentchanges
 ** helppage|help
-* {{SITENAME}}
+* IBGPedia
 ** {{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}|{{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}
 * SEARCH
 * TOOLBOX

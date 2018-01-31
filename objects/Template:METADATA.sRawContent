@@ -1,4 +1,4 @@
-{|class=wikitextpostertable width=100%
+<includeonly>{|class=wikitextpostertable width=100%
 |width=40%|
 __TOC__
 |width=60%|
@@ -12,8 +12,8 @@ __TOC__
 |?HasContext=
 |format=ul
 }}
-|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|Irregular Properties]]</div>
-{{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[PropertyType::Irregular]]
+|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|{{#switch:{{CONTENTLANG}}|de=Spezielle&nbsp;Eigenschaften|Special properties}}]]</div>
+{{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Irregular]]
 |mainlabel=-
 |?PropertyName
 |?PropertyValue
@@ -43,12 +43,14 @@ __TOC__
 |format=ul
 }}
 
-= What links here? =
-{{Special:WhatLinksHere/{{FULLPAGENAME}}}}
+= {{#switch:{{CONTENTLANG}}|de=Was linkt hierher|What links here}}? =
+{{Special:WhatLinksHere/{{PAGENAME}}}}
+{{#set:HasTitle={{{HasTitle}}}}}
+{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+__NOEDITSECTION__
+
 <headertabs/>
 |}
-= Content =
-{{#set:HasTitle={{{HasTitle}}}}}
-{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLFULLPAGENAME}}}}}}
-<noinclude>[[Category:DSKMFOntologyModuleL0BB0]]</noinclude>
-
+= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =

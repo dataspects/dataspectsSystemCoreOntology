@@ -1,0 +1,10 @@
+|}
+{{{end template}}}
+= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
+<nowiki>{{{</nowiki>standard input{{!}}free text{{!}}editor=wikieditor{{!}}rows=30<nowiki>}}}</nowiki>
+= {{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}} =
+{{ForTemplateIrregularProperty}}
+= {{#switch:{{CONTENTLANG}}|de=Motivationen|Motivations}} =
+{{ForTemplateMotivation}}
+= {{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}} =
+{{ForTemplateContext}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

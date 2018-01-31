@@ -1,0 +1,8 @@
+{{{info|add title=New General Topic|edit title=Edit General Topic|page name=C<unique number;random;10>}}}
+{{FormHeader|General Topic}}
+  !Type Hinting
+  |{{{field|HasTypeHinting|input type=textarea}}}
+{{StandardFormSections}}
+{{FormFooter|General Topic}}
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+
