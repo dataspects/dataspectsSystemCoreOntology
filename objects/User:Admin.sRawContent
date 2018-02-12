@@ -1,13 +1,13 @@
-= Main =
-
+=Main=
 * [[MediaWiki:Common.css]]
 * [[MediaWiki:Common.js]]
 * [[MediaWiki:Sidebar]]
 
-= Ontology =
+=Ontology=
 
-{{OntologyComponentsTable|ContentReferenceCategory=Category:DSKMFCoreOntology}}
-{{OntologyComponentsTable|ContentReferenceCategory=Category:IBGOntology}}
+This tab is transcluded from [[:Category:OntologyCategory]].
+
+{{Category:OntologyCategory}}
 
 <headertabs/>
 __NOEDITSECTION__
