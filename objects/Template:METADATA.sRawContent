@@ -31,12 +31,13 @@ __TOC__
 |format=template
 |template=PropertyResultRow
 }}
-|-
+<noinclude>|-
 |colspan=3|{{#compound_query:[[-Has subobject::{{FULLPAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
 |[[-Has subobject::+]][[IsMotivatedBy::{{FULLPAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
 |[[-Has subobject::+]][[IsMotivating::{{FULLPAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
 |format=array|name=MotivationsDeclaredOnThisPageResultItem|link=none}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
 {{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{FULLPAGENAME}}}}</div>}}
+</noinclude>
 |}
 = In this context&hellip; =
 {{#ask:[[HasType::+]][[HasContext::{{FULLPAGENAME}}]]
