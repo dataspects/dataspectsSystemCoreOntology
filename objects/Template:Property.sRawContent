@@ -1,0 +1,1 @@
+<includeonly>{{PropName|{{#formredlink:target=Property:{{{1}}}|form=Property|link text={{{1}}}|existing page link text={{{1}}}|tooltip=Click to initialize this property...}}}} {{PropVal|[[{{{1}}}::{{{2}}}]]}}{{#subobject:|PropertyType=Irregular|PropertyName={{{1}}}|PropertyValue={{{2}}}}}</includeonly><noinclude>[[Category:Category:DSKMFCoreOntology]]</noinclude>
