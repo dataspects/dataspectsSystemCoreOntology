@@ -2,9 +2,9 @@
 ** mainpage|mainpage-description
 ** recentchanges-url|recentchanges
 ** helppage|help
-* IBGPedia
-** {{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}|{{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}
+* {{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}|{{#switch:{{CONTENTLANG}}|de=Thementypen|Topic Types}}
+* Category:OntologyCategory|Ontologies
 * SEARCH
 * TOOLBOX
 * LANGUAGES
-<!--<noinclude>[[Category:DSKMFCore]]</noinclude>-->
+<!--<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>-->
