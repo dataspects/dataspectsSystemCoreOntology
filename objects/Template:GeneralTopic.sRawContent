@@ -3,5 +3,5 @@
 {{RegularProperty|PropertyName=HasSubjectType|PropertyValue=General Topic}}
 
 {{DISPLAYTITLE:General Topic "{{{HasTitle}}}"}}
-{{#default_form:General Topic}}</includeonly>
+{{#default_form:GeneralTopic}}</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
