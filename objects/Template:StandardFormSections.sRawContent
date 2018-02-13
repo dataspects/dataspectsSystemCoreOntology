@@ -1,5 +1,5 @@
 |}
-{{{end template}}}
+<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
 = {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
 <nowiki>{{{</nowiki>standard input{{!}}free text{{!}}editor=wikieditor{{!}}rows=30<nowiki>}}}</nowiki>
 = {{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}} =
