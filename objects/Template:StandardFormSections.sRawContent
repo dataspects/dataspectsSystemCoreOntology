@@ -7,4 +7,4 @@
 = {{#switch:{{CONTENTLANG}}|de=Motivationen|Motivations}} =
 {{ForTemplateMotivation}}
 = {{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}} =
-{{ForTemplateContext}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+{{ForTemplateHasContext}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
