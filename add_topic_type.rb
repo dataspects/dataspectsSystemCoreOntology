@@ -35,7 +35,7 @@ files["Form:#{name}"] = "{{{info|add title=Add #{name}|edit title=Edit #{name}|p
 
 {{ForTemplateIrregularProperty}}
 
-{{ForTemplateContext}}
+{{ForTemplateHasContext}}
 
 {{FormFooter}}
 [[Category:#{domain}Ontology]]"
