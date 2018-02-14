@@ -11,33 +11,23 @@ files[name] = "{{ComponentType2
 |HasKeyword=
 }}[[Category:#{domain}Ontology]]"
 
-files["Template:#{name}"] = "<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}}}
+files["Template:#{name}"] = "<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}}}
 
 {{RegularProperty|PropertyName=HasSubjectType|PropertyValue=#{name}}}
 
 {{DISPLAYTITLE:#{name} \"{{{HasTitle}}}\"}}
-{{#default_form:IBG#{name}}}</includeonly>
+{{#default_form:#{name}}}</includeonly>
++<includeonly>[[Category:Subject]]</includeonly>
 <noinclude>[[Category:#{domain}Ontology]]</noinclude>"
 
 files["Form:#{name}"] = "{{{info|add title=Add #{name}|edit title=Edit #{name}|page name=C<unique number;random;10>}}}
 
-{{{for template|IBG #{name}}}}
-  {|class=formtable
-    !Title
-    |{{{field|HasTitle|input type=text}}}
-    |-
-    !Keywords
-    |{{{field|HasKeyword|input type=tokens|delimiter=;|values from property=HasKeyword}}}
-  |}
-{{{end template}}}
+{{FormHeader|#{name}}}
 
-{{ForTemplateMotivation}}
+{{StandardFormSections}}
 
-{{ForTemplateIrregularProperty}}
+{{FormFooter|#{name}}}
 
-{{ForTemplateHasContext}}
-
-{{FormFooter}}
 [[Category:#{domain}Ontology]]"
 
 files.each do |name, content|
