@@ -1,0 +1,64 @@
+-- Global variables?
+
+local p = {}
+
+function split(s, delimiter)
+  result = {};
+  for match in (s..delimiter):gmatch("(.-)"..delimiter) do
+    table.insert(result, match);
+  end
+  return result;
+end
+
+function p.NamedAnnotationSubobject( frame )
+
+    if not mw.smw then
+        return "mw.smw module not found"
+    end
+
+    if frame.args == 0 then
+        return "no parameters found"
+    end
+
+    fields = split(frame.args[4], '@@')
+    table.remove(fields,1)
+    table.insert(fields, 'AnnotationPredicate=' .. frame.args[1])
+    table.insert(fields, 'AnnotationObject=' .. frame.args[2])
+    table.insert(fields, 'AnnotationType=' .. frame.args[3])
+    table.insert(fields, frame.args[1] .. '=' .. frame.args[2])
+
+    local result = mw.smw.subobject(fields)
+    if result == true then
+        return ''
+    else
+        return 'An error occurred during the subobject storage process. Message reads ' .. result.error
+    end
+end
+
+function p.AnonymousAnnotationSubobject( frame )
+
+    if not mw.smw then
+        return "mw.smw module not found"
+    end
+
+    if frame.args == 0 then
+        return "no parameters found"
+    end
+
+    fields = split(frame.args[5], '@@')
+    table.remove(fields,1)
+    table.insert(fields, 'AnnotationPredicate=' .. frame.args[2])
+    table.insert(fields, 'AnnotationObject=' .. frame.args[3])
+    table.insert(fields, 'AnnotationType=' .. frame.args[4])
+
+    local result = mw.smw.subobject(fields, frame.args[1])
+    if result == true then
+        return ''
+    else
+        return 'An error occurred during the subobject storage process. Message reads ' .. result.error
+    end
+end
+
+return p
+
+--[[Category:DSKIMMPETopLevelOntology]]
