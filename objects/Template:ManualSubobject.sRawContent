@@ -1,0 +1,6 @@
+{{#subobject:
+  _{{#replace:{{{1}}}|-|}}
+  |AnnotationPredicate={{{2}}}
+  |AnnotationObject={{{3}}}
+  |AnnotationType=VariablePredicateNoDomainSpecificReification
+}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
