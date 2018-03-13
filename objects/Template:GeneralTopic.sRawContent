@@ -2,7 +2,7 @@
 
 {{Annotation
 |AnnotationPredicate=HasSubjectType
-|AnnotationObjects=General Topic}}
+|AnnotationObjects=GeneralTopic}}
 
 {{DISPLAYTITLE:General Topic "{{{HasTitle}}}"}}
 {{#default_form:GeneralTopic}}</includeonly>
