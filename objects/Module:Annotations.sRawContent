@@ -45,10 +45,9 @@ function p.AnonymousAnnotationSubobject( frame )
         return "no parameters found"
     end
 
-    fields = split(frame.args[5], '@@')
-    table.remove(fields,1)
+    fields = {}
     table.insert(fields, 'AnnotationPredicate=' .. frame.args[2])
-    table.insert(fields, 'AnnotationObject=' .. frame.args[3])
+    table.insert(fields, 'AnnotationObject=' .. frame.args[5])
     table.insert(fields, 'AnnotationType=' .. frame.args[4])
 
     local result = mw.smw.subobject(fields, frame.args[1])
@@ -57,6 +56,21 @@ function p.AnonymousAnnotationSubobject( frame )
     else
         return 'An error occurred during the subobject storage process. Message reads ' .. result.error
     end
+end
+
+function p.AnonymousAnnotationFieldsTable( frame )
+
+    fields = split(frame.args[1], '@@')
+    table.remove(fields,1)
+    htmlFieldsTable = {}
+    table.insert(htmlFieldsTable, '<table class="AnonymousAnnotationFieldsTable">')
+    for key, field in pairs(fields) do
+      fields2 = split(field, '=')
+      table.insert(htmlFieldsTable, '<tr><td>' .. fields2[1] .. '</td><td>' .. fields2[2] .. '</td></tr>')
+    end
+    table.insert(htmlFieldsTable, '</table>')
+    return table.concat(htmlFieldsTable, '')
+
 end
 
 return p
