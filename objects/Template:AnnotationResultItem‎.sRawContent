@@ -1,0 +1,4 @@
+{|
+|{{PropName|{{#formredlink:target=Property:{{{1}}}|form=Property|link text={{{1}}}|existing page link text={{{1}}}|tooltip=Click to initialize this property...}}}}
+|{{#ifeq:{{{3}}}|FixedPredicateAnonymousObject|{{#invoke:Annotations|AnonymousAnnotationFieldsTable|{{{2}}}}}|{{#if:{{{2|}}}|{{PropVal|{{#ifeq:{{#show:Property:{{{1}}}|?Has type|link=none}}|Page|[[{{{2}}}|{{#getdisplaytitle:{{{2}}}}}]]|{{{2}}}}}}}|}}}}
+|}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
