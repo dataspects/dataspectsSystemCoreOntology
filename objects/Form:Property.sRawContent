@@ -20,7 +20,5 @@
   |}
 {{{end template}}}
 
-{{ForTemplateIrregularProperty}}
-
 {{FormFooter}}
 [[Category:DSKMFCoreOntology]]
