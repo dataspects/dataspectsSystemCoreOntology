@@ -11,7 +11,7 @@
 |'''Forms'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="Form"}}
 |-
-|'''Categories''' ()
+|'''Categories'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=categories|namespaces="Category"|depth=0}}
 |'''Main'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="Main"}}
