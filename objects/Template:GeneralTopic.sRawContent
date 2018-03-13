@@ -1,6 +1,8 @@
 <includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}}}
 
-{{RegularProperty|PropertyName=HasSubjectType|PropertyValue=General Topic}}
+{{Annotation
+|AnnotationPredicate=HasSubjectType
+|AnnotationObjects=General Topic}}
 
 {{DISPLAYTITLE:General Topic "{{{HasTitle}}}"}}
 {{#default_form:GeneralTopic}}</includeonly>
