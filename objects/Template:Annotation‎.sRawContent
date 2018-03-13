@@ -1,0 +1,19 @@
+<includeonly>{{#if:{{{AnnotationPredicate|}}}
+  <!-- There is no such thing as multiple values per annotation! -->
+  |{{#arraymap:{{{AnnotationObjects|}}}
+     |;
+     |@@@0@@@|
+     <!-- AnnotationSubject = Component0907067142 -->
+     {{#set:{{{AnnotationPredicate}}}=@@@0@@@}}
+     |;
+   }}
+   <!-- AnnotationSubject = Component0907067142##0#23er... -->
+   {{#vardefine:uuid|{{UUID}}}}
+   {{#arraymap:{{{AnnotationObjects|}}}
+     |;
+     |@@@1@@@|
+     {{ManualSubobject|{{#var:uuid}}|{{{AnnotationPredicate}}}|@@@1@@@}}
+     |
+   }}
+  |'''{{wr|Error:MissingAnnotationPredicate}}'''
+}}</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
