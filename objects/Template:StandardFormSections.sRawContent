@@ -1,10 +1,8 @@
 |}
-<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
+{{{end template}}}
 = {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
-<nowiki>{{{</nowiki>standard input{{!}}free text{{!}}editor=wikieditor{{!}}rows=30<nowiki>}}}</nowiki>
-= {{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}} =
-{{ForTemplateIrregularProperty}}
-= {{#switch:{{CONTENTLANG}}|de=Motivationen|Motivations}} =
-{{ForTemplateMotivation}}
+<nowiki>{{{</nowiki>standard input{{!}}free text{{!}}|class=form-textarea{{!}}rows=30<nowiki>}}}</nowiki>
+= {{#switch:{{CONTENTLANG}}|de=Annotationen|Annotations}} =
+{{ForTemplateAnnotation}}
 = {{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}} =
-{{ForTemplateHasContext}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+{{ForTemplateContext}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
