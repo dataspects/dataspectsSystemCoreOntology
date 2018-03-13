@@ -1,5 +1,5 @@
 <includeonly>|-
-|'''[[{{{1}}}]]'''
+|'''[[{{{1}}}|{{#getdisplaytitle:{{{1}}}}}]]'''
 
 {{#arraymap:{{{2|}}}|;|@@@@@@|<span class="Keyword">[[@@@@@@]]</span>&ensp;|&middot;&ensp;}}
 |{{#ask:[[-Has subobject::{{{1}}}]][[PropertyName::+]]
