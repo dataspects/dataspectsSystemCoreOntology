@@ -1,7 +1,7 @@
-<includeonly>{|class=wikitextpostertable width=100%
-|width=40%|
+{|class=wikitextpostertable width=100%
+|
 __TOC__
-|width=60%|
+|
 = Metadata =
 {|class=wikitextpostertable width=100% cellpadding=20
 |
@@ -12,45 +12,29 @@ __TOC__
 |?HasContext=
 |format=ul
 }}
-|rowspan="2"|<div style="font-family:monospace;">[[Component1793006446|{{#switch:{{CONTENTLANG}}|de=Spezielle&nbsp;Eigenschaften|Special properties}}]]</div>
-{{#ask:[[-Has subobject::{{PAGENAME}}]][[PropertyType::Irregular]]
-|mainlabel=-
-|?PropertyName
-|?PropertyValue
-|sort=PropertyName
-|format=template
-|template=PropertyResultRow
-}}
 |-
-|<div style="font-family:monospace;">[[Component1334660426|Regular Properties]]</div>
-{{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[PropertyType::Regular]]
+|<div style="font-family:monospace;">Annotations</div>
+{{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[AnnotationPredicate::+]]
 |mainlabel=-
-|?PropertyName
-|?PropertyValue
-|sort=PropertyName
+|?AnnotationPredicate
+|?AnnotationObject
+|?AnnotationType
+|sort=AnnotationPredicate
 |format=template
-|template=PropertyResultRow
+|template=AnnotationResultItem
+|link=none
 }}
-<noinclude>|-
-|colspan=3|{{#compound_query:[[-Has subobject::{{FULLPAGENAME}}]][[IsSubobjectType::DSKIMUseCaseMotivation]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
-|[[-Has subobject::+]][[IsMotivatedBy::{{FULLPAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
-|[[-Has subobject::+]][[IsMotivating::{{FULLPAGENAME}}]];?HasDirection;?IsMotivating;?IsMotivatedBy;?HasReasoning
-|format=array|name=MotivationsDeclaredOnThisPageResultItem|link=none}}{{#ifeq:{{#arraysize:MotivationsDeclaredOnThisPageResultItem}}|0||<div style="background-color:lightblue;padding:10px;border-radius:10px;margin-bottom:20px;">'''<div style="font-family:monospace;">Motivations</div>'''<!--TODO: sep parameter! -->
-{{#invoke:Motivations|main|{{#arrayprint:MotivationsDeclaredOnThisPageResultItem}}|{{FULLPAGENAME}}}}</div>}}
-</noinclude>
 |}
 = In this context&hellip; =
 {{#ask:[[HasType::+]][[HasContext::{{FULLPAGENAME}}]]
 |format=ul
 }}
 
-= {{#switch:{{CONTENTLANG}}|de=Was linkt hierher|What links here}}? =
-{{Special:WhatLinksHere/{{PAGENAME}}}}
-{{#set:HasTitle={{{HasTitle}}}}}
-<noinclude>{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}</noinclude>
-[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
-
+= What links here? =
+{{Special:WhatLinksHere/{{FULLPAGENAME}}}}
 <headertabs/>
 |}
-= {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
+= Content =
+{{#set:HasTitle={{{HasTitle}}}}}
+{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
