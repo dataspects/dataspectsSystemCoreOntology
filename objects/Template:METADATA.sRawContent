@@ -50,7 +50,6 @@ __TOC__
 <noinclude>{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}</noinclude>
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thema|Category:Topic}}]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
-__NOEDITSECTION__
 
 <headertabs/>
 |}
