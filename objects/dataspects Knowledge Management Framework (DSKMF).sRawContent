@@ -1,0 +1,16 @@
+== Welcome ==
+
+# When promoting SMW for organizational knowledge management it is useful to have a [https://smw-cindykate.com/main/Community:Component0607566289 guide on how to start] setting it up.
+# The fundamental idea is to provide a [https://dataspects.com/knowledge-management-framework knowledge management framework] so that '''''there is a place for all that knowledge and all that knowledge ends up in its place'''''. :)
+# For this purpose, dataspects recommends its [https://github.com/dataspects/DSKMFCoreOntology DSKMFCoreOntology] which implements a [https://smw-cindykate.com/main/Component0180070587 distinct set of concepts] based on [https://smw-cindykate.com/main/DSKIMPrinciple principles].
+
+* [[:Category:OntologyCategory|Ontologies]]
+* [[Topic Types]]
+
+== Extensions and Settings ==
+
+== Step by Step ==
+
+In accordance with the two maxims "Start with an instance." and "Be object oriented before being class oriented.", let's have a look at an example subject:
+
+<wikitext2 page="C1222604667"/>
