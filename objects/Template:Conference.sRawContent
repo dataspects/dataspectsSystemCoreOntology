@@ -1,0 +1,9 @@
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}|HasSubjectType=Conference}}
+
+{{Annotation
+  |AnnotationPredicate=IsOrganizedBy
+  |AnnotationObjects={{{IsOrganizedBy|}}}
+}}
+
+{{#default_form:Conference}}</includeonly>
+<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

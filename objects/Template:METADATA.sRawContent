@@ -1,8 +1,9 @@
+<includeonly>
 {|class=wikitextpostertable width=100%
 |
 __TOC__
 |
-= Metadata =
+= About =
 {|class=wikitextpostertable width=100% cellpadding=20
 |
 <div style="font-family:monospace;">Keywords/Contexts</div>
@@ -34,7 +35,8 @@ __TOC__
 {{Special:WhatLinksHere/{{FULLPAGENAME}}}}
 <headertabs/>
 |}
-= Content =
+{{DISPLAYTITLE:{{{HasSubjectType}}} "{{{HasTitle}}}"}}
 {{#set:HasTitle={{{HasTitle}}}}}
-{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+{{#set:HasSubjectType={{{HasSubjectType}}}}}
+{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

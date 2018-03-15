@@ -11,6 +11,47 @@
 
 == Step by Step ==
 
-In accordance with the two maxims "Start with an instance." and "Be object oriented before being class oriented.", let's have a look at an example subject:
+=== Start with an instance ===
+
+In accordance with the two maxims
+
+* ''start with an instance'' and
+* ''be object oriented before being class oriented''
+
+let's have a look at an example subject called '''Conference "SMWCon Fall 2017"''':
 
 <wikitext2 page="C1222604667"/>
+
+'''[[Property:IncludedRotterdamHarbourTour]]'''
+* domain irregular (someone came up with the fact that this conference IncludedRotterdamHarbourTour)
+* reifiable
+* multiple values (all share same reification)
+
+=== Subject type "Conference" artifacts ===
+
+{|class=wikitable
+|<wikitext2 page="Template:Conference"/>
+'''[[Property:HasSubjectType]]'''
+* DSKMF meta, automatic, silent, singleton
+* non-subobjectified &rarr; non-reifiable
+* set by [[Template:METADATA]]
+'''[[Property:HasTitle]]'''
+* DSKMF meta, automatic, silent, singleton
+* non-subobjectified &rarr; non-reifiable
+* set by [[Template:METADATA]]
+'''[[Property:HasKeyword]]'''
+* DSKMF meta, automatic, displayed, multiple
+* non-subobjectified &rarr; non-reifiable
+* set by [[Template:METADATA]]
+'''[[Property:HasTypeAndTitle]]'''
+* DSKMF meta, automatic, silent, singleton, synthetic
+* non-subobjectified &rarr; non-reifiable
+* set by [[Template:METADATA]]
+* sets DISPLAYTITLE
+'''[[Property:IsOrganizedBy]]'''
+* domain regular (all conferences must/can be organized by someone)
+* non-reifiable because of handling in form
+* multiple values (all would share same reification)
+|<wikitext2 page="Form:Conference"/>
+<wikitext2 page="Template:METADATA"/>
+|}

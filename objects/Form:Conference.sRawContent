@@ -1,0 +1,9 @@
+{{{info|add title=New Conference|edit title=Edit Conference|page name=C<unique number;random;10>}}}
+
+{{FormHeader|Conference}}
+  !IsOrganizedBy
+  |{{{field|IsOrganizedBy|input type=text}}}
+{{StandardFormSections}}
+{{FormFooter|Conference}}
+
+<noinclude>[[Category:ExampleDomainOntology]]</noinclude>
