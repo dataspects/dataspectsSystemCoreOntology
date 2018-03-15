@@ -33,10 +33,13 @@ __TOC__
 
 = What links here? =
 {{Special:WhatLinksHere/{{FULLPAGENAME}}}}
+= CONTENT =
+''See below&hellip;''
 <headertabs/>
 |}
 {{DISPLAYTITLE:{{{HasSubjectType}}} "{{{HasTitle}}}"}}
 {{#set:HasTitle={{{HasTitle}}}}}
 {{#set:HasSubjectType={{{HasSubjectType}}}}}
-{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}</includeonly>
+{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+{{#default_form:{{{HasSubjectType}}}}}</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

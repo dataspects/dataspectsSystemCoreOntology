@@ -4,6 +4,6 @@
   !IsOrganizedBy
   |{{{field|IsOrganizedBy|input type=text}}}
 {{StandardFormSections}}
-{{FormFooter|Conference}}
+{{FormFooter}}
 
 <noinclude>[[Category:ExampleDomainOntology]]</noinclude>

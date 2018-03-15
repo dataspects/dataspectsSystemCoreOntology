@@ -13,43 +13,63 @@
 
 === Start with an instance ===
 
-In accordance with the two maxims
+{{LearningBite|Start with an instance.}}
 
-* ''start with an instance'' and
-* ''be object oriented before being class oriented''
+'''Conference "SMWCon Fall 2017"'''
 
-let's have a look at an example subject called '''Conference "SMWCon Fall 2017"''':
+{|class=wikitable width=100%
+|<wikitext2 page="C1222604667"/>
+|<div class="mw-collapsible mw-collapsed">
+Template:Annotation
+<div class="mw-collapsible-content"><wikitext2 page="Template:Annotation"/>
+</div>
+</div>
+<div class="mw-collapsible mw-collapsed">
+Template:ForTemplateAnnotation
+<div class="mw-collapsible-content"><wikitext2 page="Template:ForTemplateAnnotation"/>
+</div>
+</div>
+|<div class="mw-collapsible mw-collapsed">
+Template:ManualSubobject
+<div class="mw-collapsible-content"><wikitext2 page="Template:ManualSubobject"/>
+</div>
+</div>
+|}
 
-<wikitext2 page="C1222604667"/>
+{{LearningBite|Be object oriented before being class oriented.}}
 
-'''[[Property:IncludedRotterdamHarbourTour]]'''
-* domain irregular (someone came up with the fact that this conference IncludedRotterdamHarbourTour)
-* reifiable
-* multiple values (all share same reification)
+==== Aspect "Semantic Business Domain Modeling" ====
+
+* Overview at https://dataspects.com/semantic-business-domain-modeling
+* '''[[Property:IncludedRotterdamHarbourTour]]'''
+** domain irregular (some user came up spontaneously with the fact that this conference IncludedRotterdamHarbourTour) &rarr;
+** reifiable
+** multiple values (all share same reification)
 
 === Subject type "Conference" artifacts ===
 
 {|class=wikitable
 |<wikitext2 page="Template:Conference"/>
 '''[[Property:HasSubjectType]]'''
-* DSKMF meta, automatic, silent, singleton
+* DSKMF meta, by administrator, silent, singleton
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
 '''[[Property:HasTitle]]'''
-* DSKMF meta, automatic, silent, singleton
+* DSKMF meta, by user, silent, singleton
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
 '''[[Property:HasKeyword]]'''
-* DSKMF meta, automatic, displayed, multiple
+* DSKMF meta, by user, displayed, multiple
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
 '''[[Property:HasTypeAndTitle]]'''
-* DSKMF meta, automatic, silent, singleton, synthetic
+* DSKMF meta, by system, silent, singleton, synthetic
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
 * sets DISPLAYTITLE
+-----
 '''[[Property:IsOrganizedBy]]'''
-* domain regular (all conferences must/can be organized by someone)
+* '''domain-specific''' regular (all conferences must/can be organized by someone)
 * non-reifiable because of handling in form
 * multiple values (all would share same reification)
 |<wikitext2 page="Form:Conference"/>

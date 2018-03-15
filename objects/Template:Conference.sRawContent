@@ -3,7 +3,5 @@
 {{Annotation
   |AnnotationPredicate=IsOrganizedBy
   |AnnotationObjects={{{IsOrganizedBy|}}}
-}}
-
-{{#default_form:Conference}}</includeonly>
+}}</includeonly>
 <noinclude>[[Category:ExampleDomainOntology]]</noinclude>
