@@ -1,9 +1,4 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}}}
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}|HasBlurb={{{HasBlurb|}}}|HasSubjectType=GeneralTopic}}
 
-{{Annotation
-|AnnotationPredicate=HasSubjectType
-|AnnotationObjects=GeneralTopic}}
-
-{{DISPLAYTITLE:General Topic "{{{HasTitle}}}"}}
-{{#default_form:GeneralTopic}}</includeonly>
+</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
