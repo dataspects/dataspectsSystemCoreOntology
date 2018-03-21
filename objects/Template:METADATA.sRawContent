@@ -5,13 +5,17 @@ __TOC__
 |
 = About =
 {|class=wikitextpostertable width=100% cellpadding=20
+|{{{HasBlurb|}}}
+|-
 |
 <div style="font-family:monospace;">Keywords/Contexts</div>
 {{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
 {{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[HasContext::+]]
 |mainlabel=-
 |?HasContext=
-|format=ul
+|?HasComment=
+|format=template
+|template=ContextResultItem
 }}
 |-
 |<div style="font-family:monospace;">Annotations</div>
@@ -41,5 +45,6 @@ __TOC__
 {{#set:HasTitle={{{HasTitle}}}}}
 {{#set:HasSubjectType={{{HasSubjectType}}}}}
 {{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
-{{#default_form:{{{HasSubjectType}}}}}</includeonly>
+{{#default_form:{{{HasSubjectType}}}}}[[Category:Topic]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+S
