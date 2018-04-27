@@ -4,11 +4,9 @@
   {|class=formtable
     !Type
     |{{{field|PropertyType|input type=dropdown|values=Text,URL,Page,Date,Boolean|default=Text}}}
-    |-
-    !Keywords
-    |{{{field|HasKeywords|input type=tokens|delimiter=;|values from property=HasKeyword}}}
-  |}
-{{{end template}}}
+{{StandardFormSections}}
+
+= {{#switch:{{CONTENTLANG}}|de=Konstitutionen|Constitutions}} =
 
 {{{for template|PropertyConstitutes|label=Constitutions|multiple|add button text=Add (another)}}}
   {|class=formtable
@@ -20,5 +18,6 @@
   |}
 {{{end template}}}
 
-{{FormFooter}}
-[[Category:DSKMFCoreOntology]]
+{{FormFooter|PropertyPage}}
+
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
