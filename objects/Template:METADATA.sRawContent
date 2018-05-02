@@ -42,6 +42,7 @@ __TOC__
 <headertabs/>
 |}
 {{DISPLAYTITLE:{{{HasSubjectType}}} "{{{HasTitle}}}"}}
+{{#if:{{{1|}}}|{{#set:HasSubjectType={{{1}}}}}||}}<noinclude>This is temporary!</noinclude>
 {{#set:HasTitle={{{HasTitle}}}}}
 {{#set:HasSubjectType={{{HasSubjectType}}}}}
 {{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
