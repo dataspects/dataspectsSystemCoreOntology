@@ -4,10 +4,11 @@
    {{#set:{{{AnnotationPredicate}}}={{{AnnotationObjects|}}}|+sep=;}}
    {{#set:WasAnnotatedBy={{subst:REVISIONUSER}}}}
    <!-- AnnotationSubject = Component0907067142##0#23er... -->
+   {{#vardefine:uuid|{{UUID}}}}
    {{#arraymap:{{{AnnotationObjects|}}}
      |;
      |@@@1@@@|
-     {{ManualSubobject|{{{AnnotationPredicate}}}|@@@1@@@}}
+     {{ManualSubobject|{{#var:uuid}}|{{{AnnotationPredicate}}}|@@@1@@@}}
      |
    }}
   |'''{{wr|Error:MissingAnnotationPredicate}}'''
