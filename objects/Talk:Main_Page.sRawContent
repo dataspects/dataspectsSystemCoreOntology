@@ -1,4 +1,4 @@
-== Welcome ==
+== Welcome to dataspects Knowledge Management Framework (DSKMF) ==
 
 # When promoting SMW for organizational knowledge management it is useful to have a [https://smw-cindykate.com/main/Community:Component0607566289 guide on how to start] setting it up.
 # The fundamental idea is to provide a [https://dataspects.com/knowledge-management-framework knowledge management framework] so that '''''there is a place for all that knowledge and all that knowledge ends up in its place'''''. :)
@@ -6,6 +6,9 @@
 
 * [[:Category:OntologyCategory|Ontologies]]
 * [[Topic Types]]
+
+== DSKMF Core Ontology Semantic MediaWiki Components ==
+{{OntologyComponentsTable}}
 
 == Extensions and Settings ==
 
@@ -75,3 +78,10 @@ Template:ManualSubobject
 |<wikitext2 page="Form:Conference"/>
 <wikitext2 page="Template:METADATA"/>
 |}
+
+== Services ==
+* http://localhost:20105 : Kibana
+* http://localhost:20109 : Elasticsearch
+* http://localhost:20107 : dataspects API
+* http://localhost:20107/sidekiq : Sidekiq
+* http://localhost:20107/search : Search
