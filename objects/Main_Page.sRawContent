@@ -1,3 +1,15 @@
 dataspectsSystem is a '''knowledge management system''' based on
 * a [http://localhost:20107/search search engine] that can [https://dataspects.com/dataspects-search index any kind of information source]
 * a '''wiki''' used as the primary platform to '''manage knowledge as connected topics''' organized by the principles of [https://everypageispageone.com/the-book/ Every Page is Page One]
+
+== How to use dataspectsSystems ==
+
+== How to backup/restore/clone/synchronize dataspectsSystems ==
+
+== How to deploy dataspectsSystems ==
+
+=== Build dataspectsSystem Docker images ===
+
+* https://github.com/dataspects/dataspectsSystem/tree/master/FACTORY/DockerImages/dataspects
+
+== How to develop dataspectsSystems ==
