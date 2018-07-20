@@ -10,6 +10,14 @@ dataspectsSystem is a '''knowledge management system''' based on
 
 === Build dataspectsSystem Docker images ===
 
+dataspects Docker images provide system components at a level of abstraction that
+
+* maximizes domain agnosticity
+* customizes the component by
+** --env (e.g. HTTP Server ports)
+** --volume (e.g. Apache Virtual Host files)
+* allows for developing the component by overlaying container-internal software repositories with corresponding Docker-host software repositories by means of --volume
+
 * https://github.com/dataspects/dataspectsSystem/tree/master/FACTORY/DockerImages/dataspects
 
 == How to develop dataspectsSystems ==
