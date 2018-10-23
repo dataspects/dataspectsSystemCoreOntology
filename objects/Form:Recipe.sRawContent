@@ -1,0 +1,7 @@
+{{{info|add title=New Recipe|edit title=Edit Recipe|page name=C<unique number;random;10>}}}
+
+{{FormHeader|Recipe}}
+{{StandardFormSections}}
+{{FormFooter}}
+
+<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

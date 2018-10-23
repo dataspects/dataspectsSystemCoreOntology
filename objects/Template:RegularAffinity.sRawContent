@@ -1,7 +1,7 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}}}
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}}}
 
-{{RegularProperty|PropertyName=HasSubjectType|PropertyValue=RegularAffinity}}
-{{DISPLAYTITLE:Regular Affinity "{{{HasTitle}}}"}}
+{{RegularProperty|PropertyName=HasEntityType|PropertyValue=RegularAffinity}}
+{{DISPLAYTITLE:Regular Affinity "{{{HasEntityTitle}}}"}}
 {{#default_form:RegularAffinity}}</includeonly>
 <includeonly>[[Category:Subject]]</includeonly>
 <noinclude>[[Category:Hapa-FAQ-EC-TS-Ontology]]</noinclude>

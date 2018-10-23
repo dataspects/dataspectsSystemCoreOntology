@@ -2,12 +2,12 @@
 {{#formlink:form={{PAGENAME}}|link text=Add new|link type=button}}
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Template:{{PAGENAME}} Template]
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{PAGENAME}} Form]
-== HasSubjectType::{{PAGENAME}} ==
+== HasEntityType::{{PAGENAME}} ==
 
 {|class="display dskim_datatables"
 !Page
 ![[Component0907067149|Properties]]
-{{#ask:[[HasSubjectType::{{PAGENAME}}]]
+{{#ask:[[HasEntityType::{{PAGENAME}}]]
 |?HasKeyword
 |format=list
 |template=SubjectsResultRow2
@@ -15,6 +15,6 @@
 |sep=;
 }}
 |}
-[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thementyp|Category:Topic Type}}]]
+[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thementyp|Category:TopicType}}]]
 </includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

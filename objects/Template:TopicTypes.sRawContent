@@ -1,9 +1,9 @@
 {|class="wikitable"
-!{{#switch:{{CONTENTLANG}}|de=Thementyp|Topic Type}}
+!{{#switch:{{CONTENTLANG}}|de=Thementyp|TopicType}}
 !{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
 !Links
 !Building Blocks
-{{#ask:{{{TypesFacetSelectionStatement|[[Category:Topic Type]]}}}
+{{#ask:{{{TypesFacetSelectionStatement|[[Category:TopicType]]}}}
 |?HasKeyword
 |format=template
 |template=TypesResultRow

@@ -11,7 +11,7 @@
 {{{for template|PropertyConstitutes|label=Constitutions|multiple|add button text=Add (another)}}}
   {|class=formtable
     !Constitutes Facet
-    |{{{field|PropertyConstitutesThisFacet|input type=dropdown|values from category=Subject|mapping property=HasTypeAndTitle}}}
+    |{{{field|PropertyConstitutesThisFacet|input type=dropdown|values from category=Subject|mapping property=HasEntityTypeAndEntityTitle}}}
     |-
     !Having Values
     |{{{field|HavingThesePropertyValues|input type=tokens}}}

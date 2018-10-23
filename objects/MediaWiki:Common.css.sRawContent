@@ -1,1 +1,94 @@
+#dataspectsSearchMainContainerDiv {
+padding:0px !important;
+}
+#dataspectsSearchMainInput {
+font-size:20px;
+border-radius:5px;
+line-height: 1.5;
+padding:2px;
+}
+mermaid table tr { line-height: 11px; }
+mermaid table { background-color:#eeeeee; border-radius:5px; font-size:9px; font-weight:normal; }
+.merPredicateTitle { font-weight:bold; font-size:12px; }
+
+h2, h3, h4, h5 { clear:both; }
+td { vertical-align:top; }
+
+.lex1512291057, .lex1512291051, .lex1512291056 { font-family:Monospace; }
+
+.lex1512291057 { font-size:20px; font-weight:bold; }
+.lex1512291051 { font-size:20px;  text-align:left; }
+.lex1512291056 { font-size:30px; font-weight:bold; }
+
+table.lex1512291049 { border-spacing:10px; width:100%; }
+
+.lex1512291053, .lex1512291054, .lex1512291055 { text-align:center;color:#666666;font-style:italic; font-size:30px; }
+
+table.lex1601050915 > * > tr > td { padding:20px; background-color:#eeeeee;}
+table.lex1601050915 { width:100%;}
+
+.lccshighlight { font-size:10px; }
+
+.domain_banner { font-size:30px; font-weight:bold; font-family:monospace; padding:5px; text-align:center; border-radius:15px; }
+
+table.lcc_structured_data_table { width: 100%; padding:0px 10px 0px 10px; margin-bottom:-2px; }
+table.lcc_structured_data_table > tbody > tr > th:first-child { width:200px; }
+table.lcc_structured_data_table > * > tr > th, table.lcc_structured_data_table > * > tr > td { background-color:#eeeeee; text-align:left; vertical-align:top; padding:5px; }
+
+table.Lex1502251328 > * > tr > td { text-align: left; vertical-align:top; border:1px solid #aaaaaa; padding:20px;}
+table.simpletable { width:100%; }
+table.simpletable > * > tr > td { text-align: left; vertical-align:top; border:0px solid #aaaaaa; padding:20px; }
+
+table.formtable th { width:200px; }
+table.formtable > tbody > tr > td:first-child { width:200px; }
+
+.notice { box-shadow: 10px 10px 5px #888888;width:66%;background-color:#FFF88C; color:#444444; border:1px solid #F4C400; padding:5px; margin-bottom:30px; }
+.notice > div { font-family:monospace; }
+
+.learningBite { width:200px;box-shadow: 10px 10px 5px #888888;background-color:#FFF88C; color:#444444; border:1px solid #F4C400; padding:5px; margin-bottom:30px; float:right;}
+.learningBite > div { font-family:monospace; }
+
+.flaw { padding:2px; border-radius:2px; font-family:monospace;background-color:orange; }
+.key { background-color:#333333; color:#dddddd; font-weight:bold; padding:2px; border-radius:2px; }
+
+#transcluded-content { background-color:#f9f9f9; border: 1px solid #dddddd; padding:20px; }
+
+.button1 {background-color:#dddddd; padding:5px; margin-right:5px; margin-bottom:5px; color:#333333; font-weight:bold; border-radius:5px; border-color:#aaaaaa;}
+.smwbtdua { background-color:lightblue; font-weight:bold; }
+code { background-color:#cccccc; border: 1px solid #aaaaaa; font-family:mono;}
+
+.keywords { background-color:#ff9900;font-weight:bold;border:1px solid #aaaaaa; padding:1px; border-radius:3px; }
+
+.wikitextpostertable { width:100%; }
+
+.PropName { background-color:lightblue; border-radius:2px; padding:1px; }
+.PropVal { font-family:courier; font-weight:bold; font-size:16px; }
+.Keyword { font-family:courier; font-weight:bold; background-color:#33d4ff; padding:2px;border-radius:2px; font-size:16px;}
+.Action { font-family:courier; font-weight:bold; background-color:#dddddd; padding:2px;border-radius:2px; }
+
+/* datatables */
+.pull-left{float:left!important;}
+.pull-right{float:right!important;}
+.dataTables_filter input { width: 400px }
+
+.compilationAskQuery { text-align:center; margin-bottom: 20px; }
+.testScenario { padding:5px; margin:5px; background-color:beige; border:1px solid gray;}
+
 #mw-content-text a { font-weight:bold; }
+
+div.HasEntityBlurb { font-size: 1.4em;
+margin: 20px 0px 20px 0px;
+background-color: #F8F8F8;
+padding: 5px;
+border-radius: 3px;}
+
+.domainTerm { background-color:beige; border-radius:2px; padding:1px; border:1px dashed gray; }
+.domainTermDomain { font-family:Monospace; }
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}

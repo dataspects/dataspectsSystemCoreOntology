@@ -1,4 +1,4 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasTitle={{{HasTitle}}}|HasBlurb={{{HasBlurb|}}}|HasSubjectType=Conference}}
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasBlurb={{{HasBlurb|}}}|HasEntityType=Conference}}
 
 {{Annotation
   |AnnotationPredicate=IsOrganizedBy

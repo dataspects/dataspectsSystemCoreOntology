@@ -1,10 +1,10 @@
 <nowiki>{{{</nowiki>for template<nowiki>|</nowiki>DSKIMUseCaseMotivation<nowiki>|</nowiki>multiple<nowiki>|</nowiki>add button text={{#switch:{{CONTENTLANG}}|de=Hinzufügen|Add}}<nowiki>}}}</nowiki>
 <nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasDirection<nowiki>|</nowiki>input type=radiobutton<nowiki>|</nowiki>values=Is motivating,Is motivated by<nowiki>|</nowiki>default=Is motivating<nowiki>|</nowiki>mandatory<nowiki>|</nowiki>show on select=Is motivating=>IsMotivating;Is motivated by=>IsMotivatedBy<nowiki>}}}</nowiki>
 <div id="IsMotivating">
-<nowiki>{{{</nowiki>field<nowiki>|</nowiki>IsMotivating<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>max values=1<nowiki>|</nowiki>existing values only<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Thema|Topic}}<nowiki>|</nowiki>mapping property=HasTypeAndTitle<nowiki>|</nowiki>mandatory<nowiki>}}}</nowiki>
+<nowiki>{{{</nowiki>field<nowiki>|</nowiki>IsMotivating<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>max values=1<nowiki>|</nowiki>existing values only<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Thema|Topic}}<nowiki>|</nowiki>mapping property=HasEntityTypeAndEntityTitle<nowiki>|</nowiki>mandatory<nowiki>}}}</nowiki>
 </div>
 <div id="IsMotivatedBy">
-<nowiki>{{{</nowiki>field<nowiki>|</nowiki>IsMotivatedBy<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>max values=1<nowiki>|</nowiki>existing values only<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Thema|Topic}}<nowiki>|</nowiki>mapping property=HasTypeAndTitle<nowiki>|</nowiki>mandatory<nowiki>}}}</nowiki>
+<nowiki>{{{</nowiki>field<nowiki>|</nowiki>IsMotivatedBy<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>max values=1<nowiki>|</nowiki>existing values only<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Thema|Topic}}<nowiki>|</nowiki>mapping property=HasEntityTypeAndEntityTitle<nowiki>|</nowiki>mandatory<nowiki>}}}</nowiki>
 </div>
 
 '''Reasoning'''

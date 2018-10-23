@@ -53,11 +53,11 @@ Template:ManualSubobject
 
 {|class=wikitable
 |<wikitext2 page="Template:Conference"/>
-'''[[Property:HasSubjectType]]'''
+'''[[Property:HasEntityType]]'''
 * DSKMF meta, by administrator, silent, singleton
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
-'''[[Property:HasTitle]]'''
+'''[[Property:HasEntityTitle]]'''
 * DSKMF meta, by user, silent, singleton
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
@@ -65,7 +65,7 @@ Template:ManualSubobject
 * DSKMF meta, by user, displayed, multiple
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]
-'''[[Property:HasTypeAndTitle]]'''
+'''[[Property:HasEntityTypeAndEntityTitle]]'''
 * DSKMF meta, by system, silent, singleton, synthetic
 * non-subobjectified &rarr; non-reifiable
 * set by [[Template:METADATA]]

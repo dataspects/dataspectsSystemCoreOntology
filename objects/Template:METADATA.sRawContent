@@ -41,11 +41,10 @@ __TOC__
 ''See below&hellip;''
 <headertabs/>
 |}
-{{DISPLAYTITLE:{{{HasSubjectType}}} "{{{HasTitle}}}"}}
-{{#if:{{{1|}}}|{{#set:HasSubjectType={{{1}}}}}||}}<noinclude>This is temporary!</noinclude>
-{{#set:HasTitle={{{HasTitle}}}}}
-{{#set:HasSubjectType={{{HasSubjectType}}}}}
-{{#set:HasTypeAndTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
-{{#default_form:{{{HasSubjectType}}}}}[[Category:Topic]]</includeonly>
+{{DISPLAYTITLE:{{{HasEntityType}}} "{{{HasEntityTitle}}}"}}
+{{#if:{{{1|}}}|{{#set:HasEntityType={{{1}}}}}||}}<noinclude>This is temporary!</noinclude>
+{{#set:HasEntityTitle={{{HasEntityTitle}}}}}
+{{#set:HasEntityType={{{HasEntityType}}}}}
+{{#set:HasEntityTypeAndEntityTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+{{#default_form:{{{HasEntityType}}}}}</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
-S

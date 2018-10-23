@@ -1,0 +1,11 @@
+$( document ).ready(function() {
+  $('#searchform').on('submit', function(e){
+    e.preventDefault();
+  });
+  $('#searchInput').on('keypress', function(e) {
+    var code = e.keyCode || e.which;
+    if(code==13) {
+      window.location.href = 'http://10.100.0.123:20201/w/index.php/Special:DataspectsSearch/'+$(this).val();
+    }
+  });
+});
