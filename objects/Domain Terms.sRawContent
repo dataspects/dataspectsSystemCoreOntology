@@ -1,0 +1,9 @@
+{{KeywordPage}}
+
+== Domains ==
+
+{{#ask:[[- PertainsToDomain::+]]}}
+
+== Terms ==
+
+{{#ask:[[AnnotationPredicate::MentionsDomainTerm]]|mainlabel=-|?AnnotationObject=|format=ul}}

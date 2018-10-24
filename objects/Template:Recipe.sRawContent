@@ -1,4 +1,3 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasBlurb={{{HasBlurb|}}}|HasEntityType=Recipe}}
-[[Category:Topic]]
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Recipe}}
 </includeonly>
 <noinclude>[[Category:ExampleDomainOntology]]</noinclude>

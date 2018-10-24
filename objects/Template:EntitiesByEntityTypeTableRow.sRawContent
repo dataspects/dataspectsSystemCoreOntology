@@ -1,0 +1,7 @@
+|-
+|[[{{{1}}}]]
+|{{#ask:[[HasEntityType::{{{1}}}]]
+|format=ul
+}}
+|-
+<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

@@ -1,0 +1,14 @@
+{{KeywordPage}}
+
+{|class="wikitable"
+!{{#switch:{{CONTENTLANG}}|de=Entitätstyp|EntityType}}
+!{{#switch:{{CONTENTLANG}}|de=Stichworte|Keywords}}
+!Links
+!Building Blocks
+{{#ask:{{{TypesFacetSelectionStatement|[[Category:EntityType]]}}}
+|?HasKeyword
+|format=template
+|template=TypesResultRow
+|link=none
+}}
+|}

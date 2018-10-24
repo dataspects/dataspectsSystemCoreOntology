@@ -15,6 +15,6 @@
 |sep=;
 }}
 |}
-[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Thementyp|Category:TopicType}}]]
+[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Entitätstyp|Category:EntityType}}]]
 </includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

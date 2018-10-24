@@ -5,7 +5,7 @@ __TOC__
 |
 = About =
 {|class=wikitextpostertable width=100% cellpadding=20
-|{{{HasBlurb|}}}
+|[[HasEntityBlurb::{{{HasEntityBlurb|}}}]]
 |-
 |
 <div style="font-family:monospace;">Keywords/Contexts</div>
@@ -31,7 +31,7 @@ __TOC__
 }}
 |}
 = In this context&hellip; =
-{{#ask:[[HasType::+]][[HasContext::{{FULLPAGENAME}}]]
+{{#ask:[[HasEntityType::+]][[HasContext::{{FULLPAGENAME}}]]
 |format=ul
 }}
 
@@ -46,5 +46,5 @@ __TOC__
 {{#set:HasEntityTitle={{{HasEntityTitle}}}}}
 {{#set:HasEntityType={{{HasEntityType}}}}}
 {{#set:HasEntityTypeAndEntityTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
-{{#default_form:{{{HasEntityType}}}}}</includeonly>
+{{#default_form:{{{HasEntityType}}}}}[[Category:Entity]]</includeonly>
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

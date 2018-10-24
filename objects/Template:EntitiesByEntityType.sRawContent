@@ -1,0 +1,9 @@
+{|class="wikitable" width="100%"
+!EntityType
+!Entities
+{{#ask:[[Category:EntityType]]
+|format=template
+|template=EntitiesByEntityTypeTableRow
+|link=none
+}}
+|}

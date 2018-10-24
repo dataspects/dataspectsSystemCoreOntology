@@ -7,6 +7,6 @@
     |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasKeyword<nowiki>|</nowiki>input type=tokens<nowiki>|</nowiki>delimiter=;<nowiki>|</nowiki>values from category={{#switch:{{CONTENTLANG}}|de=Stichwort|Keyword}}<nowiki>}}}</nowiki>
     |-
     !Blurb
-    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasBlurb<nowiki>|</nowiki>input type=textarea<nowiki>|</nowiki>class=form-textarea<nowiki>}}}</nowiki>
+    |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasEntityBlurb<nowiki>|</nowiki>input type=textarea<nowiki>|</nowiki>class=form-textarea<nowiki>}}}</nowiki>
     |-
 <noinclude>[[Category:DSKMFCoreOntology]]</noinclude>

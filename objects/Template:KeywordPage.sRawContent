@@ -1,8 +1,17 @@
-<includeonly>{|class="wikitable" width="100%" id="articles"
-!{{#switch:{{CONTENTLANG}}|de=Themen zum Stichwort|Topics having keyword}} {{Keyword|{{PAGENAME}}}}
-!{{#switch:{{CONTENTLANG}}|de=Eigenschaften|Properties}}
-{{#ask:[[HasKeyword::{{PAGENAME}}]]
-|?HasKeyword
+<includeonly>{{#arraydefine:array2|{{#ask:[[PertainsToDomain::{{PAGENAME}}]]|mainlabel=-|?AnnotationObject|format=array|link=none|sep=,}}}}{{#arrayunique:array2}}{|class=wikitable width=100%
+!{{PAGENAME}} Terms
+!Mentioned In
+{{#arrayprint:array2||@@@0@@@|{{DomainTermProfile|@@@0@@@}}}}
+|}
+-----
+'''<span class="domainTerm">{{PAGENAME}}</span> Domains:''' {{#ask:[[AnnotationPredicate::MentionsDomainTerm]][[AnnotationObject::{{PAGENAME}}]]|mainlabel=-|?PertainsToDomain=|format=array|name=array1|link=none}}{{#arrayunique:array1}}{{#arrayprint:array1|&ensp;&middot;&ensp;|@@@0@@@|<span class="domainTerm">[[@@@0@@@]]</span>}}
+-----
+'''Subjects Keyworded ''{{PAGENAME}}'''''
+{|class="display dskim_datatables" id="articles"
+|
+|
+{{#ask:[[HasEntityKeyword::{{PAGENAME}}]]OR[[ConcernsAspect::{{PAGENAME}}]]OR[[MentionsDomainTerm::{{PAGENAME}}]]
+|?HasEntityKeyword
 |format=list
 |template=SubjectsResultRow2
 |link=none
@@ -10,5 +19,5 @@
 }}
 |}
 __NOTOC__
-[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]
-</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+[[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]{{#default_form:Keyword}}
+</includeonly><noinclude>[[Category:DSKIMMPETopLevelOntology]]</noinclude>

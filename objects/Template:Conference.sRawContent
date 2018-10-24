@@ -1,7 +1,0 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasBlurb={{{HasBlurb|}}}|HasEntityType=Conference}}
-
-{{Annotation
-  |AnnotationPredicate=IsOrganizedBy
-  |AnnotationObjects={{{IsOrganizedBy|}}}
-}}</includeonly>
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

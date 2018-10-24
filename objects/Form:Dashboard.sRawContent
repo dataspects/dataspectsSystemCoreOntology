@@ -1,0 +1,7 @@
+{{{info|add title=New Dashboard|edit title=Edit Dashboard|page name=C<unique number;random;10>}}}
+
+{{FormHeader|Dashboard}}
+{{StandardFormSections}}
+{{FormFooter}}
+
+<noinclude>[[Category:ExampleDomainOntology]]</noinclude>
