@@ -1,0 +1,7 @@
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Diagram}}
+{{Annotation
+  |AnnotationPredicate=HasDrawIoURL
+  |AnnotationObjects={{{HasDrawIoURL|}}}
+}}
+</includeonly>
+<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

@@ -2,13 +2,12 @@
    <!-- There is no such thing as multiple values per annotation! -->
    <!-- AnnotationSubject = Component0907067142 -->
    {{#set:{{{AnnotationPredicate}}}={{{AnnotationObjects|}}}|+sep=;}}
-   {{#set:WasAnnotatedBy={{subst:REVISIONUSER}}}}
    <!-- AnnotationSubject = Component0907067142##0#23er... -->
    {{#vardefine:uuid|{{UUID}}}}
    {{#arraymap:{{{AnnotationObjects|}}}
      |;
      |@@@1@@@|
-     {{ManualSubobject|{{#var:uuid}}|{{{AnnotationPredicate}}}|@@@1@@@}}
+     {{ManualSubobject|1={{#var:uuid}}|2={{{AnnotationPredicate}}}|3=@@@1@@@}}
      |
    }}
   |'''{{wr|Error:MissingAnnotationPredicate}}'''
