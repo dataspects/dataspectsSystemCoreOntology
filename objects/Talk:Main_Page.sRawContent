@@ -5,7 +5,7 @@
 # For this purpose, dataspects recommends its [https://github.com/dataspects/DSKMFCoreOntology DSKMFCoreOntology] which implements a [https://smw-cindykate.com/main/Component0180070587 distinct set of concepts] based on [https://smw-cindykate.com/main/DSKIMPrinciple principles].
 
 * [[:Category:OntologyCategory|Ontologies]]
-* [[Topic Types]]
+* [[Entity Types]]
 
 == DSKMF Core Ontology Semantic MediaWiki Components ==
 {{OntologyComponentsTable}}

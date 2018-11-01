@@ -1,4 +1,4 @@
-{{{info|add title=New General Topic|edit title=Edit General Topic|page name=C<unique number;random;10>}}}
+{{{info|add title=New General Entity|edit title=Edit General Entity|page name=C<unique number;random;10>}}}
 {{FormHeader|Untyped}}
   !Type Hinting
   |{{{field|HasTypeHinting|input type=textarea}}}
