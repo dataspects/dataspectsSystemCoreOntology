@@ -1,0 +1,11 @@
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=UseCase}}
+{{Annotation
+|AnnotationPredicate=ConcernsAspect
+|AnnotationObjects={{{ConcernsAspects|}}}
+}}
+{{Annotation
+|AnnotationPredicate=IsCarriedOutBy
+|AnnotationObjects={{{IsCarriedOutBy|}}}
+}}
+</includeonly>
+<noinclude>[[Category:ExampleDomainOntology]]</noinclude>
