@@ -1,5 +1,5 @@
-{{{info|add title=New Untyped|edit title=Edit Untyped|page name=C<unique number;random;10>}}}
-{{FormHeader|Untyped}}
+{{{info|add title=New Role|edit title=Edit Role|page name=C<unique number;random;10>}}}
+{{FormHeader|Role}}
   !Type Hinting
   |{{{field|HasTypeHinting|input type=textarea}}}
 {{StandardFormSections}}

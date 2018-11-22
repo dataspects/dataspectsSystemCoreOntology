@@ -1,0 +1,8 @@
+<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Role}}
+== Carries out: ==
+{{#ask:[[IsCarriedOutBy::{{PAGENAME}}]]
+|?ConcernsAspect
+|format=ul
+}}
+</includeonly>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

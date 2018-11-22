@@ -1,2 +1,2 @@
 {{PropertyPage|PropertyType=Text}}
-[[Category:dataspectsSystemCookbookOntology]]
+[[Category:dataspectsSystemCoreOntology]]
