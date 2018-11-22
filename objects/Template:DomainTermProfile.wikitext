@@ -1,4 +1,4 @@
 |-
 |<span class="domainTerm">[[{{{1}}}]]</span>
 |{{#arraydefine:test|{{#ask:[[-Has subobject::+]][[AnnotationPredicate::MentionsDomainTerm]][[AnnotationObject::{{{1}}}]]|link=none}}}}{{#arraydefine:test22|{{#arrayprint:test|,|@@@@@|{{#explode:@@@@@|#|0}}|,}}}}{{#arrayunique:test22}}{{#arrayprint:test22|&ensp;&middot;&ensp;|@@@0@@@|[[@@@0@@@]]}}
-|-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

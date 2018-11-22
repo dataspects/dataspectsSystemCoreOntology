@@ -4,4 +4,4 @@
 {{PropertyConstitutes
 |PropertyConstitutesThisFacet=C0151289873
 }}
-[[Category:DSKMFCoreOntology]]
+[[Category:dataspectsSystemCoreOntology]]

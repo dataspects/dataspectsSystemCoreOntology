@@ -77,4 +77,4 @@ function p.main(frame)
   return wikitext
 end
 return p
---[[Category:DSKMFCoreOntology]]
+--[[Category:dataspectsSystemCoreOntology]]

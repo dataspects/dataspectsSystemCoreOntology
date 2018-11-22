@@ -1,1 +1,1 @@
-<includeonly>{{#if:{{{PropertyValue|}}}|{{#set:{{{PropertyName}}}={{{PropertyValue}}}}}{{#subobject:|PropertyType=Regular|PropertyName={{{PropertyName}}}|PropertyValue={{{PropertyValue}}}}}|}}</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<includeonly>{{#if:{{{PropertyValue|}}}|{{#set:{{{PropertyName}}}={{{PropertyValue}}}}}{{#subobject:|PropertyType=Regular|PropertyName={{{PropertyName}}}|PropertyValue={{{PropertyValue}}}}}|}}</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

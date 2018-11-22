@@ -20,4 +20,4 @@
 
 {{FormFooter|PropertyPage}}
 
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

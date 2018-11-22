@@ -5,6 +5,6 @@
 |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>AnnotationObjects<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
 |}
 <nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
 
 <!-- TODO: Add subject for clarity... -->

@@ -5,4 +5,4 @@
 |format=ul
 }}
 |-
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

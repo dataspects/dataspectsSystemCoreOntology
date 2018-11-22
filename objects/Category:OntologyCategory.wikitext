@@ -7,4 +7,4 @@
 |link=none
 }}
 
-[[Category:DSKMFCoreOntology]]
+[[Category:dataspectsSystemCoreOntology]]

@@ -3,4 +3,4 @@
 |{{PropName|{{PAGENAME}}}}
 |
 *{{PropVal|{{#ifeq:{{#show:Property:{{PAGENAME}}|?Has type|link=none}}|{{#switch:{{CONTENTLANG}}|de=Seite|Page}}|{{#arraymap:{{{2}}}|;|@@@0@@@|[[@@@0@@@]]|\n*}}|{{#arraymap:{{{2}}}|;|@@@0@@@|@@@0@@@|\n*}}}}}}
-|-</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|-</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

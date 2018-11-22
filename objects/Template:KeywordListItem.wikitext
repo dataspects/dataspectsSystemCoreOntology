@@ -1,1 +1,1 @@
-<includeonly>{{Keyword|{{{1}}}}}</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<includeonly>{{Keyword|{{{1}}}}}</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

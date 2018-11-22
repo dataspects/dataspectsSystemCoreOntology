@@ -11,4 +11,4 @@ This tab is transcluded from [[:Category:OntologyCategory]].
 
 <headertabs/>
 __NOEDITSECTION__
-[[Category:DSKMFCoreOntology]]
+[[Category:dataspectsSystemCoreOntology]]

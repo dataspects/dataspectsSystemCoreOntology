@@ -1,4 +1,0 @@
-<includeonly><div class="learningBite">
-<div><i class="fa fa-graduation-cap"></i> Learning bite:</div>
-{{{1}}}
-</div></includeonly><noinclude>[[Category:ExampleDomainOntology]]</noinclude>

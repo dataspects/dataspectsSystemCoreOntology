@@ -8,4 +8,4 @@
 |format=template
 |template=PropertyConstellationsTableRow
 }}
-|}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

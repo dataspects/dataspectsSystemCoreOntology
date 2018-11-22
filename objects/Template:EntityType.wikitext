@@ -4,9 +4,9 @@
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{PAGENAME}} Form]
 == HasEntityType::{{PAGENAME}} ==
 
-{|class="display dskim_datatables"
+{|class="display datatables"
 !Page
-![[Component0907067149|Properties]]
+!Properties
 {{#ask:[[HasEntityType::{{PAGENAME}}]]
 |?HasKeyword
 |format=list
@@ -17,4 +17,4 @@
 |}
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Entitätstyp|Category:EntityType}}]]
 </includeonly>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

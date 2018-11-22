@@ -2,13 +2,14 @@
 |'''[[{{{1}}}|{{#getdisplaytitle:{{{1}}}}}]]'''
 
 {{#arraymap:{{{2|}}}|;|@@@@@@|<span class="Keyword">[[@@@@@@]]</span>&ensp;|&middot;&ensp;}}
-|{{#ask:[[-Has subobject::{{{1}}}]][[PropertyName::+]]
+|{{#ask:[[-Has subobject::{{{1}}}]][[AnnotationPredicate::+]]
 |mainlabel=-
-|?PropertyName
-|?PropertyValue
+|?AnnotationPredicate
+|?AnnotationObject
+|?AnnotationType
+|sort=AnnotationPredicate
 |format=template
-|template=PropertyResultRow
+|template=AnnotationResultItem
 |link=none
-|sort=PropertyName
 }}
-|-</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|-</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

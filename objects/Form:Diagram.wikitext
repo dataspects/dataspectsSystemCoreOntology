@@ -1,9 +1,0 @@
-{{{info|add title=New Diagram|edit title=Edit Diagram|page name=C<unique number;random;10>}}}
-
-{{FormHeader|Diagram}}
-  !Has draw.io URL
-  |{{{field|HasDrawIoURL|input type=textarea}}}
-{{StandardFormSections}}
-{{FormFooter}}
-
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

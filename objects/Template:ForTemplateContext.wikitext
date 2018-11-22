@@ -3,4 +3,4 @@
 
 <nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasComment<nowiki>|</nowiki>input type=textarea<nowiki>}}}</nowiki>
 <nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

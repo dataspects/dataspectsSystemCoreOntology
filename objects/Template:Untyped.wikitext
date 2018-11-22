@@ -1,4 +1,4 @@
 <includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Untyped}}
 
 </includeonly>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

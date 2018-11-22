@@ -32,4 +32,4 @@
 |}
 [[Category:Property]]</includeonly>
 {{#default_form:Property}}
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

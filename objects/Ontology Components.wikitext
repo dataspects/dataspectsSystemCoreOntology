@@ -1,6 +1,6 @@
-= DSKMFCoreOntology =
-{{OntologyComponentsTable|ContentReferenceCategory=Category:DSKMFCoreOntology}}
-= dataspectsCookbookOntology =
-{{OntologyComponentsTable|ContentReferenceCategory=Category:dataspectsCookbookOntology}}
+= dataspectsSystemCoreOntology =
+{{OntologyComponentsTable|ContentReferenceCategory=Category:dataspectsSystemCoreOntology}}
+= dataspectsSystemCookbookOntology =
+{{OntologyComponentsTable|ContentReferenceCategory=Category:dataspectsSystemCookbookOntology}}
 <headertabs/>
 __NOTOC__

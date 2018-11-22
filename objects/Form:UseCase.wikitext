@@ -1,7 +1,0 @@
-{{{info|add title=New UseCase|edit title=Edit UseCase|page name=C<unique number;random;10>}}}
-
-{{FormHeader|UseCase}}
-{{StandardFormSections}}
-{{FormFooter}}
-
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

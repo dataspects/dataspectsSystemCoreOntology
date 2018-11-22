@@ -1,7 +1,0 @@
-{{{info|add title=New Concept|edit title=Edit Concept|page name=C<unique number;random;10>}}}
-
-{{FormHeader|Concept}}
-{{StandardFormSections}}
-{{FormFooter}}
-
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

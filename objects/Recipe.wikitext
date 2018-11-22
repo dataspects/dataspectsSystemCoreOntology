@@ -1,3 +1,0 @@
-{{EntityType
-  |HasKeyword=
-}}[[Category:ExampleDomainOntology]]

@@ -1,1 +1,1 @@
-<includeonly><code>{{{1}}}</code></includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<includeonly><code>{{{1}}}</code></includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

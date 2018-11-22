@@ -9,4 +9,4 @@
     !Blurb
     |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>HasEntityBlurb<nowiki>|</nowiki>input type=textarea<nowiki>|</nowiki>class=form-textarea<nowiki>}}}</nowiki>
     |-
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

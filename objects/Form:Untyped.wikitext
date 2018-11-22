@@ -4,4 +4,4 @@
   |{{{field|HasTypeHinting|input type=textarea}}}
 {{StandardFormSections}}
 {{FormFooter|Untyped}}
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

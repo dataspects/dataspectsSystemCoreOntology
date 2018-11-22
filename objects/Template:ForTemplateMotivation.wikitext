@@ -10,4 +10,4 @@
 '''Reasoning'''
 
 <nowiki>{{{</nowiki>field|HasReasoning<nowiki>|</nowiki>input type=textarea<nowiki>}}}</nowiki>
-<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

@@ -1,4 +1,4 @@
 |-
 |{{{1}}}
 |{{#if:{{{2}}}|{{#ifexist:{{{2}}}|[[{{{2}}}]]|{{{2}}}}}|''Any value(s)''}}
-|-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

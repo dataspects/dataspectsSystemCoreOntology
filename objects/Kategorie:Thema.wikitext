@@ -1,2 +1,2 @@
 __HIDDENCAT__
-[[Kategorie:DSKMFCoreOntology]]
+[[Kategorie:dataspectsSystemCoreOntology]]

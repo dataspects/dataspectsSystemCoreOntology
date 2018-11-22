@@ -1,2 +1,2 @@
 {{PropertyPage|PropertyType=Text}}
-[[Category:DSKMFCoreOntology]]
+[[Category:dataspectsSystemCoreOntology]]

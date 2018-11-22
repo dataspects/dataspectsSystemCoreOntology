@@ -1,7 +1,0 @@
-{{{info|add title=New Feature|edit title=Edit Feature|page name=C<unique number;random;10>}}}
-
-{{FormHeader|Feature}}
-{{StandardFormSections}}
-{{FormFooter}}
-
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

@@ -1,1 +1,1 @@
-<includeonly><span class="Keyword">[[{{{1}}}]]</span></includeonly><noinclude>[[Category:DSKMFCoreOntology]][[Category:DSKMFCoreOntology_Keywording]]</noinclude>
+<includeonly><span class="Keyword">[[{{{1}}}]]</span></includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]][[Category:dataspectsSystemCoreOntology_Keywording]]</noinclude>

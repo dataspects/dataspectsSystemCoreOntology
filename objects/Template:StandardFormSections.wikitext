@@ -5,4 +5,4 @@
 = {{#switch:{{CONTENTLANG}}|de=Annotationen|Annotations}} =
 {{ForTemplateAnnotation}}
 = {{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}} =
-{{ForTemplateContext}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+{{ForTemplateContext}}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

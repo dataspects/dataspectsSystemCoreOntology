@@ -1,4 +1,4 @@
 {|
 |[[{{{1}}}]]
 |{{{2}}}
-|}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

@@ -1,7 +1,0 @@
-{{{info|add title=New SystemComponent|edit title=Edit SystemComponent|page name=C<unique number;random;10>}}}
-
-{{FormHeader|SystemComponent}}
-{{StandardFormSections}}
-{{FormFooter}}
-
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

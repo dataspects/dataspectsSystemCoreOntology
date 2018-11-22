@@ -48,4 +48,4 @@ __TOC__
 {{#set:HasEntityType={{{HasEntityType}}}}}
 {{#set:HasEntityTypeAndEntityTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
 {{#default_form:{{{HasEntityType}}}}}[[Category:Entity]]</includeonly>
-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

@@ -1,3 +1,0 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Recipe}}
-</includeonly>
-<noinclude>[[Category:ExampleDomainOntology]]</noinclude>

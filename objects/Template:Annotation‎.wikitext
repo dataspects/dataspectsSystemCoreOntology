@@ -11,4 +11,4 @@
      |
    }}
   |'''{{wr|Error:MissingAnnotationPredicate}}'''
-}}</includeonly><noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+}}</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

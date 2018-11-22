@@ -4,4 +4,4 @@
   |AnnotationSubject={{FULLPAGENAME}}
   |AnnotationPredicate={{{2}}}
   |AnnotationObject={{{3}}}
-}}<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+}}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

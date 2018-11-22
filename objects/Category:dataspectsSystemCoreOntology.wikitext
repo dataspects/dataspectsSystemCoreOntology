@@ -1,2 +1,2 @@
 [[Subcategory of::Category:OntologyCategory]]
-[[Category:DSKMFCoreOntology]]
+[[Category:dataspectsSystemCoreOntology]]

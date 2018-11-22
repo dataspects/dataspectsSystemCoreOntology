@@ -6,4 +6,4 @@
 |
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Template:{{#replace:{{{1}}}| |_}} Template]
 * [{{SERVER}}{{SCRIPTPATH}}/index.php?title=Form:{{#replace:{{{1}}}| |_}} Form]
-|-<noinclude>[[Category:DSKMFCoreOntology]]</noinclude>
+|-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
