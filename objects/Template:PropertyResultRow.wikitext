@@ -1,1 +1,0 @@
-* {{PropName|{{#formredlink:target=Property:{{{1}}}|form=Property|link text={{{1}}}|existing page link text={{{1}}}|tooltip=Click to initialize this property...}}}}{{#if:{{{2|}}}|&ensp;{{PropVal|{{#ifeq:{{#show:Property:{{{1}}}|?Has type|link=none}}|{{#switch:{{CONTENTLANG}}|de=Seite|Page}}|[[{{{2}}}]]|{{{2}}}}}}}|}}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

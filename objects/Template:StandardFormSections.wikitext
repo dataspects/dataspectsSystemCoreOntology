@@ -1,7 +1,7 @@
 |}
 {{{end template}}}
 = {{#switch:{{CONTENTLANG}}|de=Inhalt|Content}} =
-<nowiki>{{{</nowiki>standard input{{!}}free text{{!}}|class=form-textarea{{!}}rows=30<nowiki>}}}</nowiki>
+<nowiki>{{{</nowiki>standard input{{!}}free text{{!}}|class=form-textarea{{!}}rows=30{{!}}editor=visualeditor<nowiki>}}}</nowiki>
 = {{#switch:{{CONTENTLANG}}|de=Annotationen|Annotations}} =
 {{ForTemplateAnnotation}}
 = {{#switch:{{CONTENTLANG}}|de=Kontexte|Contexts}} =

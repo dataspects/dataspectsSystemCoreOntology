@@ -46,6 +46,6 @@ __TOC__
 {{#if:{{{1|}}}|{{#set:HasEntityType={{{1}}}}}||}}<noinclude>This is temporary!</noinclude>
 {{#set:HasEntityTitle={{{HasEntityTitle}}}}}
 {{#set:HasEntityType={{{HasEntityType}}}}}
-{{#set:HasEntityTypeAndEntityTitle={{#getdisplaytitle:{{FULLPAGENAME}}}}}}
+{{#set:HasEntityTypeAndEntityTitle={{{HasEntityType}}} "{{{HasEntityTitle}}}"}}
 {{#default_form:{{{HasEntityType}}}}}[[Category:Entity]]</includeonly>
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
