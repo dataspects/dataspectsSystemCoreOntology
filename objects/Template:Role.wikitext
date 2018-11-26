@@ -1,6 +1,6 @@
 <includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Role}}
 == Carries out: ==
-{{#ask:[[IsCarriedOutBy::{{PAGENAME}}]]
+{{#ask:[[IsCarriedOutByRole::{{PAGENAME}}]]
 |?ConcernsAspect
 |format=ul
 }}
