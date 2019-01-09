@@ -3,4 +3,4 @@
 |IsAssumedByRole={{{IsAssumedByRole|}}}
 }}
 </includeonly>
-<noinclude>[[Category:dataspectsSystemCookbookOntology]]</noinclude>
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
