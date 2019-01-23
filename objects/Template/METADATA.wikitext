@@ -5,7 +5,7 @@ __TOC__
 |
 = About =
 {|class=wikitextpostertable width=100% cellpadding=20
-|[[HasEntityBlurb::{{{HasEntityBlurb|}}}]]
+|<div class="HasEntityBlurb">[[HasEntityBlurb::{{{HasEntityBlurb|}}}]]</div>
 |-
 |EntityType "[[{{{HasEntityType}}}]]"
 |-
