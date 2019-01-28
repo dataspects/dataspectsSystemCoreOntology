@@ -3,7 +3,7 @@
 {{{for template|PropertyPage}}}
   {|class=formtable
     !Type
-    |{{{field|PropertyType|input type=dropdown|values=Text,URL,Page,Date,Boolean|default=Text}}}
+    |{{{field|PropertyType|input type=dropdown|values=Text,URL,Page,Date,Boolean,Code|default=Text}}}
 {{StandardFormSections}}
 
 = {{#switch:{{CONTENTLANG}}|de=Konstitutionen|Constitutions}} =
