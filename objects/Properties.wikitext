@@ -1,0 +1,6 @@
+{{#arraydefine: my.array
+ |{{#ask: [[AnnotationPredicate::+]] |mainlabel=- |headers=hide |?AnnotationPredicate |limit=5000 }}
+ |, |sort=asc, unique
+}}
+
+{{#arrayprint: my.array | <br/> | @@@0@@@ | [[Property:@@@0@@@|@@@0@@@]]}}

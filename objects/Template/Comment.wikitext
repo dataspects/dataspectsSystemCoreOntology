@@ -1,0 +1,4 @@
+<div class="notice">
+<div>Comment:</div>
+[[HasComment::{{{1}}}]]
+</div><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

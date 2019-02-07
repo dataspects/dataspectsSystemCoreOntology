@@ -1,0 +1,5 @@
+{{#ask:
+ [[Category:Entity]]OR[[HasContext::+]][[Category:Entity]]
+ |format=ultree
+ |parent=HasContext
+}}

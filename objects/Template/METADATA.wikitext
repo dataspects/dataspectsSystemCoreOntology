@@ -7,9 +7,11 @@ __TOC__
 {|class=wikitextpostertable width=100% cellpadding=20
 |<div class="HasEntityBlurb">[[HasEntityBlurb::{{{HasEntityBlurb|}}}]]</div>
 |-
+|EntityType "[[{{{HasEntityType}}}]]"
+|-
 |
 <div style="font-family:monospace;">Keywords/Contexts</div>
-{{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
+{{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasEntityKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
 {{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[HasContext::+]]
 |mainlabel=-
 |?HasContext=

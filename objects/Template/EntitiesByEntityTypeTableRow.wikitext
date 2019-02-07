@@ -1,7 +1,7 @@
 |-
 |[[{{{1}}}]]
 |{{#ask:[[HasEntityType::{{{1}}}]]
-|?HasDatahoiPriority=Prio
+||?HasEntityBlurb=
 |format=ul
 }}
 |-

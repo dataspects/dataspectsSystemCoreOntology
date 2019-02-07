@@ -20,4 +20,4 @@
 |}
 __NOTOC__
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]{{#default_form:Keyword}}
-</includeonly><noinclude>[[Category:DSKIMMPETopLevelOntology]]</noinclude>
+</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
