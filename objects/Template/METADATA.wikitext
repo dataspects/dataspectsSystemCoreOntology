@@ -11,7 +11,7 @@ __TOC__
 |-
 |
 <div style="font-family:monospace;">Keywords/Contexts</div>
-{{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
+{{#arraymap:{{{Keywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasEntityKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}
 {{#ask:[[-Has subobject::{{FULLPAGENAME}}]][[HasContext::+]]
 |mainlabel=-
 |?HasContext=
