@@ -1,6 +1,0 @@
-<includeonly>{{METADATA|Keywords={{{HasKeyword|}}}|HasEntityTitle={{{HasEntityTitle}}}|HasEntityBlurb={{{HasEntityBlurb|}}}|HasEntityType=Responsibility}}
-{{DataspectsCookbookEntityTypeSpecialTemplateTemplate0
-|IsAssumedByRole={{{IsAssumedByRole|}}}
-}}
-</includeonly>
-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

@@ -1,8 +1,0 @@
-{{{info|add title=New Responsibility|edit title=Edit Responsibility|page name=C<unique number;random;10>}}}
-
-{{FormHeader|Responsibility}}
-{{DataspectsCookbookEntityTypeSpecialFormTemplate0}}
-{{StandardFormSections}}
-{{FormFooter}}
-
-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

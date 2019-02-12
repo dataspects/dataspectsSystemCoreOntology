@@ -85,3 +85,5 @@ Template:ManualSubobject
 * http://localhost:20107 : dataspects API
 * http://localhost:20107/sidekiq : Sidekiq
 * http://localhost:20107/search : Search
+
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
