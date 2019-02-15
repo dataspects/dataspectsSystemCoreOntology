@@ -12,3 +12,4 @@
 |link=none
 }}
 |}
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

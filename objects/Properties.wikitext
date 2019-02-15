@@ -4,3 +4,5 @@
 }}
 
 {{#arrayprint: my.array | <br/> | @@@0@@@ | [[Property:@@@0@@@|@@@0@@@]]}}
+
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

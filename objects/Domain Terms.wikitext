@@ -7,3 +7,5 @@
 == Terms ==
 
 {{#ask:[[AnnotationPredicate::MentionsDomainTerm]]|mainlabel=-|?AnnotationObject=|format=ul}}
+
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

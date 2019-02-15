@@ -3,3 +3,4 @@
  |format=ultree
  |parent=HasContext
 }}
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

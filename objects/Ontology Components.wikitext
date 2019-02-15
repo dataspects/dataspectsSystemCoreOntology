@@ -4,3 +4,4 @@
 {{OntologyComponentsTable|ContentReferenceCategory=Category:dataspectsSystemCookbookOntology}}
 <headertabs/>
 __NOTOC__
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

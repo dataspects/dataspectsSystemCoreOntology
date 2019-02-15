@@ -19,5 +19,9 @@
 |'''Modules'''
 |'''MediaWiki'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="MediaWiki"}}
+|-
+|'''Talk'''
+{{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="Talk"}}
+|
 |}
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
