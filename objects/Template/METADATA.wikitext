@@ -49,5 +49,5 @@ __TOC__
 {{#set:HasEntityTitle={{{HasEntityTitle}}}}}
 {{#set:HasEntityType={{{HasEntityType}}}}}
 {{#set:HasEntityTypeAndEntityTitle={{{HasEntityType}}} "{{{HasEntityTitle}}}"}}
-{{#default_form:{{{HasEntityType}}}}}[[Category:Entity]]</includeonly>
+{{#default_form:{{{HasEntityType}}}}}[[Category:Entity]][[Category:{{{HasEntityType}}}]]</includeonly>
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
