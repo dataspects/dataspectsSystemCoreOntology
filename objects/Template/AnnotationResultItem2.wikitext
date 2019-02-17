@@ -1,0 +1,5 @@
+|-
+|[[{{{1}}}]]
+|{{PropName|{{{2}}}}}
+|[[{{{3}}}]]
+|-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

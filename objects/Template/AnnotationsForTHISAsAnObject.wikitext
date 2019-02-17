@@ -1,0 +1,17 @@
+{|class="wikitable sortable"
+!Entity
+!
+!
+{{#ask:[[AnnotationObject::{{PAGENAME}}]][[AnnotationPredicate::+]]
+|mainlabel=-
+|?AnnotationSubject
+|?AnnotationPredicate
+|?AnnotationObject
+|?AnnotationType
+|sort=AnnotationPredicate
+|format=template
+|template=AnnotationResultItem2
+|link=none
+}}
+|}
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
