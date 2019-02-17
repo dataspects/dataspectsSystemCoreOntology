@@ -1,0 +1,1 @@
+<span style="background-color:pink;">{{{1}}}</span><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

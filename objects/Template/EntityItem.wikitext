@@ -1,0 +1,14 @@
+|-
+|width=50%|[[{{{1}}}]]
+|{{#ask:[[-Has subobject::{{{1}}}]][[AnnotationPredicate::+]]
+|mainlabel=-
+|?AnnotationPredicate
+|?AnnotationObject
+|?AnnotationType
+|sort=AnnotationPredicate
+|format=template
+|template=AnnotationResultItem
+|link=none
+}}
+|-
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

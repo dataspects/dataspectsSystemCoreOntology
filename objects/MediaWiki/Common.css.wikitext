@@ -61,8 +61,8 @@ code { background-color:#cccccc; border: 1px solid #aaaaaa; font-family:mono;}
 
 .wikitextpostertable { width:100%; }
 
-.PropName { background-color:lightblue; border-radius:2px; padding:1px; }
-.PropVal { font-family:courier; font-weight:bold; font-size:16px; }
+.PropName { background-color:lightblue; font-size:12px; }
+.PropVal { background-color:beige; font-size:12px; }
 .Keyword { font-family:courier; font-weight:bold; background-color:#33d4ff; padding:2px;border-radius:2px; font-size:16px;}
 .Action { font-family:courier; font-weight:bold; background-color:#dddddd; padding:2px;border-radius:2px; }
 

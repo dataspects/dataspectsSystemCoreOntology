@@ -1,0 +1,5 @@
+{{#ifeq:{{{1}}}|Ontology||
+== [[:{{{1}}}|{{#explode:{{{1}}}|:|1}}]] ==
+{{OntologyComponentsTable|ContentReferenceCategory={{{1}}}}}
+__NOTOC__
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>}}

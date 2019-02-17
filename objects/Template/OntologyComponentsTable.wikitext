@@ -1,5 +1,3 @@
-== Ontology components in '''Category:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}''' ==
-
 {|class=wikitable width=100%
 |width=50%|'''Templates'''
 {{#categorytree:{{#explode:{{{ContentReferenceCategory|{{{1}}}}}}|:|1}}|hideroot=on|mode=pages|namespaces="Template"}}

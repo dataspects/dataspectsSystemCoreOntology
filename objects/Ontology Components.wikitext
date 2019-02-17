@@ -1,7 +1,0 @@
-= dataspectsSystemCoreOntology =
-{{OntologyComponentsTable|ContentReferenceCategory=Category:dataspectsSystemCoreOntology}}
-= dataspectsSystemCookbookOntology =
-{{OntologyComponentsTable|ContentReferenceCategory=Category:dataspectsSystemCookbookOntology}}
-<headertabs/>
-__NOTOC__
-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

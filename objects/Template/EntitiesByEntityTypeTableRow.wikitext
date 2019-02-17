@@ -1,8 +1,14 @@
 |-
 |[[{{{1}}}]]
-|{{#ask:[[HasEntityType::{{{1}}}]]
-||?HasEntityBlurb=
-|format=ul
+{{mp|{{#formlink:form={{{1}}}|link text=Add new|link type=link}}}}
+|
+{|width=100% class=wikitable
+{{#ask:[[HasEntityType::{{{1}}}]]
+|?HasEntityBlurb=
+|format=template
+|template=EntityItem
+|link=none
 }}
+|}
 |-
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

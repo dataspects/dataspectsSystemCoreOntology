@@ -1,0 +1,7 @@
+__TOC__
+{{#ask:[[Subcategory of::Ontology]]
+|format=template
+|template=OntologyComponents
+|link=none
+}}
+[[Category:dataspectsSystemCoreOntology]]
