@@ -1,5 +1,5 @@
 |-
-|width=50%|[[{{{1}}}]]
+|width=50%|[[{{{1}}}]]<br>{{{2}}}
 |{{#ask:[[-Has subobject::{{{1}}}]][[AnnotationPredicate::+]]
 |mainlabel=-
 |?AnnotationPredicate

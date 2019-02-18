@@ -2,7 +2,7 @@
 !Entity
 !
 !
-{{#ask:[[AnnotationObject::{{PAGENAME}}]][[AnnotationPredicate::+]]
+{{#ask:[[AnnotationObject::{{FULLPAGENAME}}]][[AnnotationPredicate::+]]
 |mainlabel=-
 |?AnnotationSubject
 |?AnnotationPredicate
