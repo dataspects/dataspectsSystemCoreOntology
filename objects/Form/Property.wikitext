@@ -2,8 +2,11 @@
 
 {{{for template|PropertyPage}}}
   {|class=formtable
-    !Type
-    |{{{field|PropertyType|input type=dropdown|values=Text,URL,Page,Date,Boolean,Code|default=Text}}}
+    !SMWHasType
+    |{{{field|SMWHasType|input type=dropdown|values=Text,URL,Page,Date,Boolean,Code|default=Text}}}
+    |-
+    !PredicateClass
+    |{{{field|PredicateClass|input type=dropdown|values=Property,ActiveAction,PassiveAction|default=Property}}}
 {{StandardFormSections}}
 
 = {{#switch:{{CONTENTLANG}}|de=Konstitutionen|Constitutions}} =

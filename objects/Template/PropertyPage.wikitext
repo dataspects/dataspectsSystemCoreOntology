@@ -1,4 +1,6 @@
-<includeonly>Property type is '''[[Has type::{{{PropertyType|Text}}}]]'''.
+<includeonly>
+ {{code|Has type}} is '''[[Has type::{{{SMWHasType|Text}}}]]'''
+ Predicate class is '''[[HasPredicateClass::{{{PredicateClass|Property}}}]]'''
 
 <div style="font-family:monospace;">Keywords</div>
 {{#arraymap:{{{HasKeywords|}}}|;|@@@0@@@|<span class="Keyword">[[HasKeyword::@@@0@@@]]</span>&ensp;|&middot;&ensp;}}

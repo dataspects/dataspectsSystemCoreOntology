@@ -1,6 +1,6 @@
 
 {{PropertyPage
-|PropertyType=Page
+|SMWHasType=Page
 }}
 {{PropertyConstitutes
 |PropertyConstitutesThisFacet=C0151289873

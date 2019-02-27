@@ -1,4 +1,4 @@
 {{PropertyPage
-|PropertyType=Text
+|SMWHasType=Text
 }}
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

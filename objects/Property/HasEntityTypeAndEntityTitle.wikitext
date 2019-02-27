@@ -1,2 +1,2 @@
-{{PropertyPage|PropertyType=Text}}
+{{PropertyPage|SMWHasType=Text}}
 [[Category:dataspectsSystemCoreOntology]]

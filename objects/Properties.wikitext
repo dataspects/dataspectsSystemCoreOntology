@@ -3,6 +3,6 @@
  |, |sort=asc, unique
 }}
 
-{{#arrayprint: my.array | <br/> | @@@0@@@ | [[Property:@@@0@@@|@@@0@@@]]}}
+{{#arrayprint: my.array | <br/> | @@@0@@@ | {{#ask:[[Property:@@@0@@@]]|?Has type=|?HasPredicateClass|format=ul}}}}
 
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
