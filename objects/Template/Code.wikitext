@@ -1,1 +1,16 @@
-<includeonly><code>{{{1}}}</code></includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
+<includeonly><code>{{{1}}}</code></includeonly><noinclude>
+[[Category:dataspectsSystemCoreOntology]]
+<templatedata>
+{
+    "description": "A template for linking to a commons category about an article",
+    "params": {
+        "1": {
+            "label": "Commons category",
+            "description": "The commons category you want to link to.",
+            "default": "Category:CommonsRoot",
+            "type": "string",
+            "required": true
+        }
+    }
+}
+</templatedata></noinclude>
