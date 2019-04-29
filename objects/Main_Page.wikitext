@@ -1,0 +1,9 @@
+== Dashboards ==
+
+{{#ask:[[Category:Dashboard]]
+|format=template
+|template=DashboardTransclusion
+|link=none
+}}
+
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
