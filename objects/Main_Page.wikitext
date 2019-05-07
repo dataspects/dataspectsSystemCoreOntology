@@ -1,3 +1,5 @@
+ [http://{{SERVERNAME}}:3000 Search (dataspects-ui)]
+
 == Dashboards ==
 
 {{#ask:[[Category:Dashboard]]
