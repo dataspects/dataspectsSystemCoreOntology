@@ -1,12 +1,15 @@
-<includeonly>{{#arraydefine:array2|{{#ask:[[PertainsToDomain::{{PAGENAME}}]]|mainlabel=-|?AnnotationObject|format=array|link=none|sep=,}}}}{{#arrayunique:array2}}{|class=wikitable width=100%
-!{{PAGENAME}} Terms
-!Mentioned In
-{{#arrayprint:array2||@@@0@@@|{{DomainTermProfile|@@@0@@@}}}}
+== Disambiguation ==
+
+{|
+{{#ask:[[lcHasEntityTitle::{{lc:{{PAGENAME}}}}]]
+|format=template
+|template=DisambiguationItem
+|link=none
+}}
 |}
------
-'''<span class="domainTerm">{{PAGENAME}}</span> Domains:''' {{#ask:[[AnnotationPredicate::MentionsDomainTerm]][[AnnotationObject::{{PAGENAME}}]]|mainlabel=-|?PertainsToDomain=|format=array|name=array1|link=none}}{{#arrayunique:array1}}{{#arrayprint:array1|&ensp;&middot;&ensp;|@@@0@@@|<span class="domainTerm">[[@@@0@@@]]</span>}}
------
-'''Subjects Keyworded ''{{PAGENAME}}'''''
+
+== Entities keyworded ''{{PAGENAME}}'' ==
+
 {|class="display dskim_datatables" id="articles"
 |
 |
@@ -18,6 +21,19 @@
 |sep=;
 }}
 |}
+
+-----
+
 __NOTOC__
 [[{{#switch:{{CONTENTLANG}}|de=Kategorie:Stichwort|Category:Keyword}}]]{{#default_form:Keyword}}
-</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
+
+{{#arraydefine:array2|{{#ask:[[PertainsToDomain::{{PAGENAME}}]]|mainlabel=-|?AnnotationObject|format=array|link=none|sep=,}}}}{{#arrayunique:array2}}{|class=wikitable width=100%
+!{{PAGENAME}} Terms
+!Mentioned In
+{{#arrayprint:array2||@@@0@@@|{{DomainTermProfile|@@@0@@@}}}}
+|}
+-----
+'''<span class="domainTerm">{{PAGENAME}}</span> Domains:''' {{#ask:[[AnnotationPredicate::MentionsDomainTerm]][[AnnotationObject::{{PAGENAME}}]]|mainlabel=-|?PertainsToDomain=|format=array|name=array1|link=none}}{{#arrayunique:array1}}{{#arrayprint:array1|&ensp;&middot;&ensp;|@@@0@@@|<span class="domainTerm">[[@@@0@@@]]</span>}}
+-----
+
+<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

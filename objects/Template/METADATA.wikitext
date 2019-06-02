@@ -47,6 +47,7 @@ __TOC__
 {{DISPLAYTITLE:{{{HasEntityType}}} "{{{HasEntityTitle}}}"}}
 {{#if:{{{1|}}}|{{#set:HasEntityType={{{1}}}}}||}}<noinclude>This is temporary!</noinclude>
 {{#set:HasEntityTitle={{{HasEntityTitle}}}}}
+{{#set:lcHasEntityTitle={{lc:{{{HasEntityTitle}}}}}}}
 {{#set:HasEntityType={{{HasEntityType}}}}}
 {{#set:HasEntityTypeAndEntityTitle={{{HasEntityType}}} "{{{HasEntityTitle}}}"}}
 {{#default_form:{{{HasEntityType}}}}}[[Category:Entity]][[Category:{{{HasEntityType}}}]]</includeonly>

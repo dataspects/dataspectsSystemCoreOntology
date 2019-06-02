@@ -1,5 +1,5 @@
-{{#ask:
- [[Category:Keyword]]
- |format=ul
-}}
-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
+{{#ask:[[Category:Keyword]]
+|format=template
+|template=KeywordItem
+|link=none
+}}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

@@ -1,0 +1,3 @@
+<includeonly>|-
+|[[{{{1}}}]]
+|-</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
