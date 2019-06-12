@@ -2,9 +2,8 @@
 {|class=formtable
 |{{#getdisplaytitle:{{FULLPAGENAME}}}}
 |<nowiki>{{{</nowiki>field<nowiki>|</nowiki>AnnotationPredicate<nowiki>|</nowiki>input type=combobox<nowiki>|</nowiki>values from property=AnnotationPredicate<nowiki>}}}</nowiki>
-|<nowiki>{{{</nowiki>field<nowiki>|</nowiki>AnnotationObjects<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
+|<nowiki>{{{</nowiki>field<nowiki>|</nowiki>AnnotationObject<nowiki>|</nowiki>input type=text<nowiki>}}}</nowiki>
 |}
 <nowiki>{{{</nowiki>end template<nowiki>}}}</nowiki>
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
-
 <!-- TODO: Add subject for clarity... -->

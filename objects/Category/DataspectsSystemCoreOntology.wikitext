@@ -1,3 +1,2 @@
 [[Subcategory of::Category:Ontology]]
 [[Category:DataspectsSystemCoreOntology]]
-__HIDDENCAT__

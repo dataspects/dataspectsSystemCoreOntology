@@ -1,7 +1,0 @@
-{{#subobject:
-  _{{#replace:{{{1}}}|-|}}
-  |AnnotationID={{#replace:{{{1}}}|-|}}
-  |AnnotationSubject={{FULLPAGENAME}}
-  |AnnotationPredicate={{{2}}}
-  |AnnotationObject={{{3}}}
-}}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>

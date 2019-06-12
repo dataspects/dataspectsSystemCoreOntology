@@ -1,14 +1,7 @@
-<includeonly>{{#if:{{{AnnotationPredicate|}}}|
-   <!-- There is no such thing as multiple values per annotation! -->
-   <!-- AnnotationSubject = Component0907067142 -->
-   {{#set:{{{AnnotationPredicate}}}={{{AnnotationObjects|}}}|+sep=;}}
-   <!-- AnnotationSubject = Component0907067142##0#23er... -->
-   {{#vardefine:uuid|{{UUID}}}}
-   {{#arraymap:{{{AnnotationObjects|}}}
-     |;
-     |@@@1@@@|
-     {{ManualSubobject|1={{#var:uuid}}|2={{{AnnotationPredicate}}}|3=@@@1@@@}}
-     |
-   }}
-  |'''{{wr|Error:MissingAnnotationPredicate}}'''
-}}</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
+<noinclude>
+The Template:Annotation is used through the form mechanism. As such it is instantiated:
+# on entity pages by [[Template:ForTemplateAnnotation]] if the user freely declares an Entity annotation, or
+# on EntityType templates if an annotation is officially declared for en EntityType.
+The Template:Annotation is not meant to be used freely by users. For free annotation declaration there is the [[Template:Property]].
+</noinclude>
+<includeonly>{{#if:{{{AnnotationPredicate|}}}|<!-- DirectAnnotation: AnnotationSubject=Component0907067142 -->{{#set:{{{AnnotationPredicate}}}={{{AnnotationObject|}}}|+sep=;}}<!-- SubobjectedAnnotation: AnnotationSubject=Component0907067142##0#23er... -->{{#subobject:|AnnotationID=PENDINGFUNCTIONALITY|AnnotationSubject={{FULLPAGENAME}}|AnnotationPredicate={{{AnnotationPredicate}}}|AnnotationObject={{{AnnotationObject|}}}}}|'''{{wr|Error:MissingAnnotationPredicate}}'''}}</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
