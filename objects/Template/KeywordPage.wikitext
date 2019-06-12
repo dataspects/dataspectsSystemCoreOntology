@@ -1,4 +1,4 @@
-== Disambiguation ==
+<includeonly>== Disambiguation ==
 
 {|
 {{#ask:[[lcHasEntityTitle::{{lc:{{PAGENAME}}}}]]
@@ -35,5 +35,4 @@ __NOTOC__
 -----
 '''<span class="domainTerm">{{PAGENAME}}</span> Domains:''' {{#ask:[[AnnotationPredicate::MentionsDomainTerm]][[AnnotationObject::{{PAGENAME}}]]|mainlabel=-|?PertainsToDomain=|format=array|name=array1|link=none}}{{#arrayunique:array1}}{{#arrayprint:array1|&ensp;&middot;&ensp;|@@@0@@@|<span class="domainTerm">[[@@@0@@@]]</span>}}
 -----
-
-<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
+</includeonly><noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
