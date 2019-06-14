@@ -1,4 +1,4 @@
-<includeonly>
+<includeonly><div id="dsMETADATA">
 {|class=wikitextpostertable width=100%
 |
 __TOC__
@@ -50,5 +50,5 @@ __TOC__
 {{#set:lcHasEntityTitle={{lc:{{{HasEntityTitle}}}}}}}
 {{#set:HasEntityType={{{HasEntityType}}}}}
 {{#set:HasEntityTypeAndEntityTitle={{{HasEntityType}}} "{{{HasEntityTitle}}}"}}
-{{#default_form:{{{HasEntityType}}}}}[[Category:Entity]][[Category:{{{HasEntityType}}}]]</includeonly>
+{{#default_form:{{{HasEntityType}}}}}[[Category:Entity]][[Category:{{{HasEntityType}}}]]</div></includeonly>
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
