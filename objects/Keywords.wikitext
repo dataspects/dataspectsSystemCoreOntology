@@ -1,5 +1,5 @@
 {{#ask:[[Category:Keyword]]
 |format=template
-|template=KeywordItem
+|template=KeywordListItem
 |link=none
 }}<noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
