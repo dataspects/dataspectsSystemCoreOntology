@@ -1,0 +1,17 @@
+= Ontology Components =
+
+{{OntologyComponentsTable|ContentReferenceCategory=Category:DataspectsSystemCoreOntology}}
+
+= Entity Types =
+
+{{EntitiesByEntityType}}
+
+= Dashboards =
+
+{{#ask:[[Category:Dashboard]]
+|format=template
+|template=DashboardTransclusion
+|link=none
+}}
+
+<headertabs />

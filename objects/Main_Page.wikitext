@@ -1,11 +1,3 @@
- [http://{{SERVERNAME}}:3000 Search (dataspects-ui)]
-
-== Dashboards ==
-
-{{#ask:[[Category:Dashboard]]
-|format=template
-|template=DashboardTransclusion
-|link=none
-}}
+  [[View the ontological structure on this MediaWiki]]
 
 <noinclude>[[Category:dataspectsSystemCoreOntology]]</noinclude>
